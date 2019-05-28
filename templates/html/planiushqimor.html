@@ -1,0 +1,620 @@
+{% load static%}
+<html style="overflow-x: hidden;">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="{% static 'css/planiushqimor.css' %}" rel="stylesheet">
+        <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.css >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.min.js"></script>
+        <link href="{% static 'css/aos.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!--Navbar-->
+            <div class="container">
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    <div class="logo">
+                        <a href="#">HEALTH APP</a>
+                    </div>
+                    <div class="nav-wrapper">
+                        <ul>
+                            <li><a href="index.html">Faqja Kryesore</a></li>
+                            <li><a href="healthapp_register.html">Regjistrohu</a></li>
+                            <li><a href="healthapp_login.html">Hyr</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Shërbimet<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="planiushqimor.html">Planifikues Ushqimor</a></li>
+                                        <li><a href="#" style="margin-left: -19%">Aktivitetet Fizike</a></li>
+                                        <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="/profili/">Profili</a></li>
+                            <li><a href="/pyetesori/">Pyetesori</a></li>
+                        </ul>
+                  </div>
+                </nav>
+            </div>
+            <!--/Navbar-->
+            <!--Planifikuesi Ushqimor Header-->
+            <div class="row" id="contentUshqimi" style="background-image: url('/static/images/contentbg.gif');">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                    <h1 id="contentText1" data-aos="fade-right" data-aos-duration="500" data-aos-delay="200">Planifikuesi Ushqimor</h1>
+                    <h2 id="contentText2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">do t'ju ndihmoj te arrini<br> qellimin tuaj!</h2>
+                    <div class="row" id="imazh">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="{% static "images/fruit.png" %}" id="contentimg" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"></div>
+            </div>
+            <!--/Planifikuesi Ushqimor Header-->
+            
+            <!--Vaktet-->
+            <div class="row" id="vaktet">
+                <div class="row">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <h1 id="vaktetText" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-sine">Zgjidhni nje prej vakteve</h1>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+               </div>
+                <div class="container" id="containervaktet">
+                <div class="row" id="secilivakt">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col1">
+                        <img src="{% static "images/circle1.png" %}" id="circle1">
+                        <a href="#vakti1" onclick="function()"><img src="{% static "images/breakfast.png" %}" id="mengjesi"></a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col2">
+                        <img src="{% static "images/circle2.png" %}" id="circle2">
+                        <a href="#vakti2" onclick="function()"><img src="{% static "images/lunch.png" %}" id="dreka"></a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col3">
+                        <img src="{% static "images/circle3.png" %}" id="circle3">
+                        <a href="#vakti3" onclick="function()"><img src="{% static "images/dinnerfoto.png" %}" id="darka"></a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col4">
+                        <img src="{% static "images/circle4.png" %}" id="circle4">
+                        <a href="#vakti4" onclick="function()"> <img src="{% static "images/snackfoto.png" %}" id="snacks"></a>
+                    </div>
+                </div>
+                    <div class="row" id="secilivakt_emri">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1mengjesi">Mengjesi</h1>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1ndryshe">Dreka</h1>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1ndryshe">Darka</h1>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1ndryshe">Snacks</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Vaktet-->
+            <script>
+                $(document).ready(function()
+                {
+                    $("#mengjesi").click(function()
+                    {
+                        $("#vakti1").fadeToggle(2000);
+                        $("#vakti2").fadeOut();
+                        $("#vakti3").fadeOut();
+                        $("#vakti4").fadeOut();
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function()
+                {
+                    $("#dreka").click(function()
+                    {
+                        $("#vakti2").fadeToggle();
+                        $("#vakti1").fadeOut();
+                        $("#vakti3").fadeOut();
+                        $("#vakti4").fadeOut();
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function()
+                {
+                    $("#darka").click(function()
+                    {
+                        $("#vakti3").fadeToggle();
+                        $("#vakti1").fadeOut();
+                        $("#vakti2").fadeOut();
+                        $("#vakti4").fadeOut();
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function()
+                {
+                    $("#snacks").click(function()
+                    {
+                        $("#vakti4").fadeToggle();
+                        $("#vakti1").fadeOut();
+                        $("#vakti2").fadeOut();
+                        $("#vakti3").fadeOut();
+                    });
+                });
+            </script>
+            <div id="vakti1" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/mengjesigif.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-right">
+                                <div class="col-lg-12"><h3 id="funditext">Rekomandimi<br>im ditor<br>është:<br></h3></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-up">
+                                <div class="col-lg-12">
+                                    <h3 id="kalori">300 cal</h3>
+                                    <img src="{% static "images/peshore.png" %}" id="peshore" class="center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-left">
+                                <div class="col-lg-12"><h3 id="funditext">Kushdo që kontrollon ushqimin kontrollon botën.</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/heading.png" %}" id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{% static "images/Fotoushqimesh/buka.png" %}">
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>Bukë integrale</h3>
+                                    <h2>1 fetë<span> - 69cal</span><input type="checkbox" id="checkbox"></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Proteina</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Sheqerna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Yndyrna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Fibra</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>3.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>0.9g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.9g</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                <button id="btn_perfundo">Përfundo</button>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                <!--/Ushqimet-->
+            </div>
+            <div id="vakti2" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/dreka.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-right">
+                                <div class="col-lg-12"><h3 id="funditext">Rekomandimi<br>im ditor<br>është:<br></h3></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-up">
+                                <div class="col-lg-12">
+                                    <h3 id="kalori">300 cal</h3>
+                                    <img src="{% static "images/peshore.png" %}" id="peshore" class="center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-left">
+                                <div class="col-lg-12"><h3 id="funditext">Kushdo që kontrollon ushqimin kontrollon botën.</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/heading3.png" %}" id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{% static "images/Fotoushqimesh/buka.png" %}">
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>Bukë integrale</h3>
+                                    <h2>1 fetë<span> - 69cal</span><input type="checkbox" id="checkbox"></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Proteina</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Sheqerna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Yndyrna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Fibra</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>3.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>0.9g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.9g</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                            <button id="btn_perfundo">Përfundo</button>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                
+                <!--/Ushqimet-->
+            </div>
+            <div id="vakti3" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/darka.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-right">
+                                <div class="col-lg-12"><h3 id="funditext">Rekomandimi<br>im ditor<br>është:<br></h3></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-up">
+                                <div class="col-lg-12">
+                                    <h3 id="kalori">300 cal</h3>
+                                    <img src="{% static "images/peshore.png" %}"id="peshore" class="center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-left">
+                                <div class="col-lg-12"><h3 id="funditext">Kushdo që kontrollon ushqimin kontrollon botën.</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/heading1.png" %}" id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{% static "images/Fotoushqimesh/buka.png" %}">
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>Bukë integrale</h3>
+                                    <h2>1 fetë<span> - 69cal</span><input type="checkbox" id="checkbox"></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Proteina</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Sheqerna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Yndyrna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Fibra</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>3.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>0.9g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.9g</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                            <button id="btn_perfundo">Përfundo</button>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                <!--/Ushqimet-->
+            </div>
+            <div id="vakti4" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/snacks.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-right">
+                                <div class="col-lg-12"><h3 id="funditext">Rekomandimi<br>im ditor<br>është:<br></h3></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-up">
+                                <div class="col-lg-12">
+                                    <h3 id="kalori">300 cal</h3>
+                                    <img src="{% static "images/peshore.png" %}" id="peshore" class="center">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="row" id="fundibg" data-aos="fade-down-left">
+                                <div class="col-lg-12"><h3 id="funditext">Kushdo që kontrollon ushqimin kontrollon botën.</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/heading2.png" %}" id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{% static "images/Fotoushqimesh/buka.png" %}">
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>Bukë integrale</h3>
+                                    <h2>1 fetë<span> - 69cal</span><input type="checkbox" id="checkbox"></h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Proteina</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Sheqerna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Yndyrna</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>Fibra</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>3.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.6g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>0.9g</h5>
+                                </div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                                    <h5>1.9g</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                            <button id="btn_perfundo">Përfundo</button>
+                        </div>
+                        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                <!--/Ushqimet-->
+            </div>
+            <!--/Mengjesi-->
+        </header>
+         <script src="{% static "script/aos.js" %}"></script>
+         <script type="text/javascript">
+            AOS.init({
+                offset:200,
+                duration:700,
+            });
+         </script>
+        <!--Modal Login-->      
+          <div class="modal fade" id="LoginModal" role="dialog">
+            <div class="modal-dialog" style="margin-top: 120px">
+              <!-- Modal content-->
+              <div class="modal-content">  
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div id="main" style="margin-top: 50px;">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4">
+                                <ul>
+                                    <a href="#" style="border-bottom: 2px solid #ffff3c;padding: 10px;text-align: center">&nbsp; &nbsp;Hyr&nbsp; &nbsp;</a>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4" id="form" style="margin-left: -6.5%;">
+                                <form>
+                                    <input type="text" class="form-control" name="user" placeholder="Username">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
+                                    <a href="Homepage.html">
+                                        <img src="{% static "images/next.png" %}" style="width: 70px;height: 70px; margin-top: 18px; margin-left: 52%;margin-bottom: 20px;">
+                                    </a>
+                                </form>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--/Modal Login-->
+        <!--Modal Register-->
+        <div class="modal fade" id="RegisterModal" role="dialog">
+            <div class="modal-dialog" style="margin-top: 80px">
+              <!-- Modal content-->
+              <div class="modal-content">  
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div id="main" style="margin-top: 50px;">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4">
+                                <ul>
+                                    <a href="#" style="border-bottom: 2px solid #ffff3c;padding: 10px;text-align: center;margin-left: -27px">Rregjistrohu</a>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4" id="form" style="margin-left: -6.5%;">
+                                <form>
+                                    <input type="text" class="form-control" name="user" placeholder="Username">
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
+                                    <input type="password" class="form-control" name="cpassword" placeholder="Confirm Password">
+                                    <a href="pyetesori.html">  
+                                        <img src="{% static "images/next.png" %}" style="width: 70px;height: 70px; margin-top: 18px; margin-left: 50%;margin-bottom: 20px;">
+                                    </a>
+                                </form>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--/Modal Register-->
+    </body>
+</html>

@@ -1,0 +1,292 @@
+{% load static%}
+<html style="overflow-x: hidden;">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link  href="{% static 'css/profili.css' %}" rel="stylesheet" >
+        <link href="{% static 'css/animate.css' %}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.css >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.min.js"></script>
+        <link href="{% static 'css/aos.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!--Navbar-->
+            <div class="container">
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    <div class="logo">
+                        <a href="#">HEALTH APP</a>
+                    </div>
+                    <div class="nav-wrapper">
+                       <ul>
+                            <li><a href="/index/">Faqja Kryesore</a></li>
+                            <li><a href="/register/">Regjistrohu</a></li>
+                            <li><a href="/login/">Hyr</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Shërbimet<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
+                                        <li><a href="#" style="margin-left: -19%">Aktivitetet Fizike</a></li>
+                                        <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="/profili/">Profili</a></li>
+                            <li><a href="/pyetesori/">Pyetesori</a></li>
+                        </ul>
+                  </div>
+                </nav>
+            </div>
+            <!--/Navbar-->
+            <!--Header-->
+            <div id="header" class="row" style="background-image: url('/static/images/profilibg.gif');">
+                <div id="profile">
+                    <img src= "{% static "images/profilepic.png" %}" id="profilepic">
+                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" id="emermbiemer">
+                        <h3>Emri Mbiemri</h3>
+                        <h4>Mireserdhe</h4>
+                        <a href="#profili"><img id="arrow_icon"src= "{% static "images/arrow1.png" %}"></a>
+                    </div>
+                    <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+                </div>
+            </div>
+            <!--/Header-->
+            <!--Profili-->
+            <div class="row" id="profili" >
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                        <div id="tedhena">
+                            <h2>Te dhena</h2>
+                            <h3>Qellimi:<span> Shtim ne peshe</span></h3>
+                            <h3>Pesha:<span> 50 kg</span></h3>
+                            <h3>Gjatesia:<span> 160 cm</span></h3>
+                            <h3>BMI:<span> 19.5</span></h3>
+                            <h3>Pesha Ideale:<span> 54 kg</span></h3>
+                            <h3>Kalorite e duhura ditore:<span> 2000 cal</span></h3>
+                            <h3>Perqindja e mases dhjamore:<span> 28.8%</span></h3>
+                        </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+                    <div id="arritjet">
+                        <h2>Arritjet e mia sot</h2>
+                        <div class="row" id="imazhet" style="margin-top:-3% ">
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src= "{% static "images/mengjesi profil.png" %}" style="width: 200px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div class="back-header">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <img src= "{% static "images/breakfast.png" %}">
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6" id="emrivaktit">
+                                                        <h1>Mengjesi</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="back-footer">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>Kalori</p>
+                                                        <p>Proteina</p>
+                                                        <p>Sheqerna</p>
+                                                        <p>Yndyrna</p>
+                                                        <p>Fibra</p>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>100</p>
+                                                        <p>20.5</p>
+                                                        <p>30</p>
+                                                        <p>50</p>
+                                                        <p>60</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4">
+                            <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src= "{% static "images/drekaprofil.png" %}"style="width: 200px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div class="back-header">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <img src= "{% static "images/lunch.png" %}">
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6" id="emrivaktit">
+                                                        <h1>Dreka</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="back-footer">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>Kalori</p>
+                                                        <p>Proteina</p>
+                                                        <p>Sheqerna</p>
+                                                        <p>Yndyrna</p>
+                                                        <p>Fibra</p>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>100</p>
+                                                        <p>20.5</p>
+                                                        <p>30</p>
+                                                        <p>50</p>
+                                                        <p>60</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src= "{% static "images/darkaprofil.png" %}"style="width: 200px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div class="back-header">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <img src= "{% static "images/dinnerfoto.png" %}">
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6" id="emrivaktit">
+                                                        <h1>Darka</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="back-footer">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>Kalori</p>
+                                                        <p>Proteina</p>
+                                                        <p>Sheqerna</p>
+                                                        <p>Yndyrna</p>
+                                                        <p>Fibra</p>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>100</p>
+                                                        <p>20.5</p>
+                                                        <p>30</p>
+                                                        <p>50</p>
+                                                        <p>60</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src= "{% static "images/snacksprofil.png" %}" style="width: 200px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div class="back-header">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <img src= "{% static "images/snackfoto.png" %}">
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6" id="emrivaktit">
+                                                        <h1>Snacks</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="back-footer">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>Kalori</p>
+                                                        <p>Proteina</p>
+                                                        <p>Sheqerna</p>
+                                                        <p>Yndyrna</p>
+                                                        <p>Fibra</p>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>100</p>
+                                                        <p>20.5</p>
+                                                        <p>30</p>
+                                                        <p>50</p>
+                                                        <p>60</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-4 col-xl-4">
+                                <div class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src= "{% static "images/darkaprofil.png" %}" style="width: 200px;">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <div class="back-header">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <img src= "{% static "images/breakfast.png" %}">
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6" id="emrivaktit">
+                                                        <h1>Total</h1>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="back-footer">
+                                                <div class="row">
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>Kalori</p>
+                                                        <p>Proteina</p>
+                                                        <p>Sheqerna</p>
+                                                        <p>Yndyrna</p>
+                                                        <p>Fibra</p>
+                                                    </div>
+                                                    <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6">
+                                                        <p>100</p>
+                                                        <p>20.5</p>
+                                                        <p>30</p>
+                                                        <p>50</p>
+                                                        <p>60</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Profili-->
+        </header>
+    </body>
+</html>

@@ -1,0 +1,375 @@
+{% load static%}
+<html style="overflow-x:hidden">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="{% static 'css/index.css' %}" rel="stylesheet">
+        <link  href="{% static 'css/animate.css' %}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.css >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.min.js"></script>
+        <link href="{% static 'css/aos.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!--Navbar-->
+            <div class="container">
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    <div class="logo">
+                        <a href="#">Health App</a>
+                    </div>
+                    <div class="nav-wrapper">
+                        <ul>
+                            <li><a href="/index/">Faqja Kryesore</a></li>
+                            {% if user.is_authenticated %}
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Shërbimet<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
+                                        <li><a href="#" style="margin-left: -19%">Aktivitetet Fizike</a></li>
+                                        <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="/profili/">Profili</a></li>
+                            <li><a href="/pyetesori/">Pyetesori</a></li>
+                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                            {% else %}
+                            <li><a href="/register/">Regjistrohu</a></li>
+                            <li><a href="/login/">Hyr</a></li>
+                            {% endif %}
+                        </ul>
+                        <!--data-toggle="modal" data-target="#LoginModal"-->
+                    </div>
+                </nav>
+          </div>
+            <!--/Navbar-->
+            
+            <!--Carousel-->
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <div class="banner" style="background-image: url('/static/images/slider1bg.jpg');width: 100%;height: 100%">
+                      <div class="carousel-caption" style="padding-top: 90%;">
+                          <h1>Ne do të kujdesemi</h1>
+                          <h2>Për shëndetin tuaj</h2>
+                          <!--<p class="animated zoomIn" style="padding-top: 30px"><a href="#">Contact Us</a></p>-->
+                      </div>
+                    </div>
+                </div>
+                <div class="item">
+                  <div class="banner" style="background-image: url('/static/images/slider1.jpg')">
+                      <div class="carousel-caption">
+                          <h1 style="color:#5CE1E6">Shëndeti juaj është </h1>
+                          <h2>prioriteti jonë</h2>
+                          <!--<p class="animated zoomIn"  style="animation-delay: 2s"><a href="#">Contact Us</a></p>-->
+                      </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="banner" style="background-image: url('/static/images/slider2.jpg')">
+                      <div class="carousel-caption">
+                          <h1 style="color:#5CE1E6">Vendosni një qëllim</h1>
+                          <h2>Dhe ndiqni programin tonë</h2>
+                          <!--<p class="animated zoomIn"  style="animation-delay: 2s"><a href="#">Contact Us</a></p>-->
+                      </div>
+                  </div>
+                </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            </div>
+            <!--/Carousel-->
+        </header>
+        <!--About us-->
+        <section id="about" class="section-padding about-section" style="margin-top: 10%;margin-bottom: 10%">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="section_title"><br>
+                  <div class="section_subtitle" style="font-family: 'Poppins',sans-serif">Rreth nesh </div>
+                  <h2 class="section_main_title" style="font-family: 'Poppins',sans-serif">NE DHE <strong>MISIONI YNË</strong></h2>
+                </div>
+                <div class="about-item" style="font-family: 'Poppins',sans-serif">
+                  <p>
+                    Ne jemi zhvilluesit e rinj te aplikacioneve web dhe jo vetem.
+                    Gjithcka nisi si nje projekt ne fakultetin ku ne studiojme.
+                    Vendosem  te gjithe si skuader te krijonim nje app per kujdesin ndaj shendetit tone.
+                    Shpresojme t'ju pelqeje!
+                    Ky aplikacion eshte ndertuar me shume perkushtim dhe pune ne grup per te arritur ne nje
+                    produkt te perdorshem dhe terheqes per perdoruesit.
+                  </p>
+                  <p>
+                    We are the next generation of young Developers. This app will
+                    help you organise dhe take care of your health. Nothing is more important as health,
+                    we all know that.
+                    Enjoy :)
+                  </p>
+                  <div class="hgt-20"></div>
+                    <div class="home-button"><br>
+                        <a href="" class="btn-color-background">Lexo me shume...</a>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-sm-4 col-sm-offset-2">
+                <video width="100%" controls muted autoplay loop class="video" >
+                    <source src="{% static "images/video1.mp4" %}" type="video/mp4" >
+                </video>
+                </div>
+              </div>
+            </div>
+        </section>
+        
+        <!--Services-->
+        <section class="services-section">
+            <div class="row no-gutters clearfix">
+                <div class="service-block col-sm-4">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image  animated fadeIn" style="background-image: url('/static/images/eathealthy.png')"></div>
+                        </div>
+                        <div class="content-box">
+                            <div class="content">
+                                <a href="">
+                                    
+                                </a>
+                                <br>
+                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;font-size: 37px; margin-top: -20px;" class="animated slideInLeft"><a href=""></a>Planifikues Ushqimor</h3>
+                                <div class="text" style="font-family: Poppins, sans-serif;font-weight: 400; font-size: 15px;line-height: 28px"> 
+                                    <h5 class="animated fadeIn" style="animation-delay: 0.2s; margin-top:15px;">Lorem Ipsum has been the industry's standard.</h5> 
+                                </div>
+                                <div class="link-box"><a href="planiushqimor.html"><button class="btn btn-info animated heartBeat">Fillo Tani</button></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-block style-two col-sm-4">
+                    <div class="inner-box">
+                        
+                        <div class="content-box">
+                            <div class="content">
+                                <a href="">
+                                    
+                                </a>
+                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;font-size: 37px; margin-top: -20px;" class="animated zoomIn"><a href=""></a>Monitorues Uji</h3>
+                                <div class="text" style="font-family: Poppins, sans-serif;font-weight: 400; font-size: 15px;line-height: 28px"> 
+                                   <h5 class="animated fadeIn" style="animation-delay: 0.2s;margin-top:15px;">Lorem Ipsum has been the industry's standard.</h5>
+                                </div>
+                                <div class="link-box"><button class="btn btn-info animated heartBeat">Fillo Tani</button></div>
+                            </div>
+                        </div>
+                        
+                        <div class="image-box">
+                            <div class="image image  animated fadeIn" style="background-image: url('/static/images/drinkwater.png')"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-block col-sm-4">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image image  animated fadeIn" style="background-image: url('/static/images/exercisemore.png')"></div>
+                        </div>
+                        <div class="content-box">
+                            <div class="content">
+                                <a href="">
+                                    
+                                </a>
+                                <br>
+                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;;font-size: 37px; margin-top: -20px;" class="animated slideInRight"><a href=""></a>Planifikues <br>per Aktivitetin Fizik</h3>
+                                <div class="text" style="font-family: Poppins, sans-serif;font-weight: 400; font-size: 15px;line-height: 28px"> 
+                                    <h5 class="animated fadeIn" style="animation-delay: 0.2s;margin-top:15px;">Lorem Ipsum has been the industry's standard.</h5>
+                                </div>
+                                <div class="link-box"><button class="btn btn-info animated heartBeat">Fillo Tani</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--/Services-->
+        <!--Testimonials-->
+          <section style="margin-top: 10%;margin-bottom: 10%">
+                <div id="testimonial4" class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x" data-ride="carousel" data-pause="hover" data-interval="5000" data-duration="2000">
+                        <div class="testimonial4_header">
+                            <h4>Testimonials</h4>
+                        </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#testimonial4" data-slide-to="0" class="active"></li>
+                            <li data-target="#testimonial4" data-slide-to="1"></li>
+                            <li data-target="#testimonial4" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="testimonial4_slide">
+                                    <img src= "{% static "images/f1.png" %}" class="img-circle img-responsive" />
+                                    <p>This application is very useful.Good experience!</p>
+                                    <h4>Jhon Smith</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial4_slide">
+                                    <img src= "{% static "images/f2.png" %}" class="img-circle img-responsive" />
+                                    <p>Aplikacioni eshte interesant. Nje ide mjaft e mire. </p>
+                                    <h4>Marin Ron</h4>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="testimonial4_slide">
+                                    <img src= "{% static "images/f3.png" %}" class="img-circle img-responsive" />
+                                    <p>Dizanjni shume i bukur. Pune e mire. I lehte per tu perdorur. Mjaft i sakte.</p>
+                                    <h4>Ana Gjimi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#testimonial4" role="button" data-slide="prev">
+                            <span class="fa fa-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#testimonial4" role="button" data-slide="next">
+                            <span class="fa fa-chevron-right"></span>
+                        </a>
+                    </div>
+            </section>
+        <!--/Testimonials-->
+         <!--Footer-->
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12 segment-one md-mb-30 sm-mb-30">
+                            <img src= "{% static "images/footerimg.png" %}" style="width: 270px">
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
+                            <h3>Shko te:</h3>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="planiushqimor.html">Sherbimet</a></li>
+                                <li><a href="healthapp_login.html">Login</a></li>
+                                <li><a href="healthapp_register.html">Register</a></li>
+                                <li><a href="profili.html">Profili</a></li>
+                                <li><a href="#">Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">
+                            <h3>Na Ndiqni Në:</h3>
+                            <p>Ju lutem na ndiqni në Rrjetet tona Sociale në mënyrë që të merrni njoftimet më të reja.</p>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-linkedin"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                        <div  class="col-md-3 col-sm-6 col-xs-12 segment-four sm-mb-30">
+                            <h3>Na Kontaktoni</h3>
+                            <h4>Email: exampe@gmail.com</h4>
+                            <h4>Tel: +355 12 34 56 789</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-bottom-text">Të gjitha të drejtat e rezrvuara nga &copy;HealthApp.2019</p>
+        </footer>
+        <!--/Footer-->
+        <!--Modal Login-->      
+          <div class="modal fade" id="LoginModal" role="dialog">
+            <div class="modal-dialog" style="margin-top: 120px">
+              <!-- Modal content-->
+              <div class="modal-content">  
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div id="main" style="margin-top: 50px;">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4">
+                                <ul>
+                                    <a href="#" style="border-bottom: 2px solid #ffff3c;padding: 10px;text-align: center">&nbsp; &nbsp;Hyr&nbsp; &nbsp;</a>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4" id="form" style="margin-left: -6.5%;">
+                                <form>
+                                    <input type="text" class="form-control" name="user" placeholder="Username">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
+                                    <a href="Homepage.html">
+                                        <img src= "{% static "images/next.png" %}" style="width: 70px;height: 70px; margin-top: 18px; margin-left: 52%;margin-bottom: 20px;">
+                                    </a>
+                                </form>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--/Modal Login-->
+        <!--Modal Register-->
+        <div class="modal fade" id="RegisterModal" role="dialog">
+            <div class="modal-dialog" style="margin-top: 80px">
+              <!-- Modal content-->
+              <div class="modal-content">  
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div id="main" style="margin-top: 50px;">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4">
+                                <ul>
+                                    <a href="#" style="border-bottom: 2px solid #ffff3c;padding: 10px;text-align: center;margin-left: -27px">Rregjistrohu</a>
+                                </ul>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4"></div>
+                            <div class="col-sm-4 col-md-4" id="form" style="margin-left: -6.5%;">
+                                <form>
+                                    <input type="text" class="form-control" name="user" placeholder="Username">
+                                    <input type="email" class="form-control" name="email" placeholder="Email">
+                                    <input type="password" class="form-control" name="password" placeholder="Password">
+                                    <input type="password" class="form-control" name="cpassword" placeholder="Confirm Password">
+                                    <a href="pyetesori.html">  
+                                        <img src= "{% static "images/next.png" %}" style="width: 70px;height: 70px; margin-top: 18px; margin-left: 50%;margin-bottom: 20px;">
+                                    </a>
+                                </form>
+                            </div>
+                            <div class="col-sm-4 col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--/Modal Register-->
+    </body>
+</html>

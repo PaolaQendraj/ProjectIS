@@ -1,0 +1,425 @@
+body
+{
+
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+#main
+{
+    border-radius: 20px;
+    margin-top: 10%;
+}
+#rregjistrohu
+{
+    text-align: center;
+    margin-left: -1.5%;
+}
+#rregjistrohu a
+{
+    border-bottom: 2px solid #ffff3c;
+    padding: 10px;
+}
+ul
+{
+    margin-bottom: 42px
+}
+ul a
+{
+    font-size: 29px;
+    color: white;
+    font-family: 'Oswald',sans-serif;
+    text-align: center;
+}
+ul a:hover
+{
+    text-decoration: none;
+    color: #ffff3c;
+}
+#main input
+{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.form-control
+{
+    margin-top: 50px;
+    border-radius: 16px;
+    border: 0px;
+    margin-bottom: 15px;
+    font-size: 23px;
+    color: black;
+    padding: 20px;
+    font-family: 'Oswald',sans-serif;
+}
+#form img
+{
+    display: block;
+    margin-left: 45%;
+    margin-right: auto;
+    width: 10%;
+}
+@media screen and (max-width: 1024px){ /*iPad Pro*/
+    #main
+    {
+        border-radius: 20px;
+        margin-top: 33%;
+    }
+    #rregjistrohu
+    {
+        text-align: center;
+        margin-left: -12.5%;
+        margin-bottom: 20px;
+    }
+    #rregjistrohu a
+    {
+        border-bottom: 2px solid #ffff3c;
+        padding: 10px;
+    }
+    ul
+    {
+        margin-bottom: 42px
+    }
+    ul a
+    {
+        font-size: 70px;
+        color: white;
+        font-family: 'Oswald',sans-serif;
+        text-align: center;
+    }
+    ul a:hover
+    {
+        text-decoration: none;
+        color: #ffff3c;
+    }
+    #main input
+    {
+        text-align: center;
+        width: 630px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        margin-left: -15%;
+    }
+    .form-control
+    {
+        margin-top: 50px;
+        border-radius: 16px;
+        border: 0px;
+        margin-bottom: 20px;
+        font-size: 63px;
+        color: black;
+        padding: 20px;
+        height: 75px;
+        font-family: 'Oswald',sans-serif;
+    }
+    #form img
+    {
+        margin-top: 3%;
+        display: block;
+        margin-left: 35%;
+        margin-right: auto;
+        width: 30%;
+    }
+}
+@media screen and (max-width: 768px){ /*iPad*/
+     #main
+    {
+        border-radius: 20px;
+        margin-top: 28%;
+    }
+    #rregjistrohu
+    {
+        text-align: center;
+        margin-left: -15%;
+        margin-bottom: 20px;
+    }
+    #rregjistrohu a
+    {
+        border-bottom: 2px solid #ffff3c;
+        padding: 10px;
+    }
+    ul
+    {
+        margin-bottom: 42px
+    }
+    ul a
+    {
+        font-size: 55px;
+        color: white;
+        font-family: 'Oswald',sans-serif;
+        text-align: center;
+    }
+    ul a:hover
+    {
+        text-decoration: none;
+        color: #ffff3c;
+    }
+    #main input
+    {
+        text-align: center;
+        width: 450px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        margin-left: -10%;
+    }
+    .form-control
+    {
+        margin-top: 50px;
+        border-radius: 16px;
+        border: 0px;
+        margin-bottom: 20px;
+        font-size: 47px;
+        color: black;
+        padding: 20px;
+        height: 75px;
+        font-family: 'Oswald',sans-serif;
+    }
+    #form img
+    {
+        margin-top: 3%;
+        display: block;
+        margin-left: 35%;
+        margin-right: auto;
+        width: 30%;
+    }
+}
+@media screen and (max-width: 414px){ /*iPhone 6/7/8 Plus*/
+     #main
+    {
+        border-radius: 20px;
+        margin-top: 25%;
+    }
+    #rregjistrohu
+    {
+        text-align: center;
+        margin-left: -26%;
+        margin-bottom: 10px;
+    }
+    #rregjistrohu a
+    {
+        border-bottom: 2px solid #ffff3c;
+        padding: 10px;
+    }
+    ul a
+    {
+        font-size: 40px;
+        color: white;
+        font-family: 'Oswald',sans-serif;
+        text-align: center;
+    }
+    ul a:hover
+    {
+        text-decoration: none;
+        color: #ffff3c;
+    }
+    #main input
+    {
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        margin-left: -16%;
+    }
+    .form-control
+    {
+        margin-top: 50px;
+        border-radius: 16px;
+        border: 0px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: black;
+        padding: 20px;
+        height: 50px;
+        font-family: 'Oswald',sans-serif;
+    }
+    #form img
+    {
+        margin-top: 5%;
+        display: block;
+        margin-left: 30%;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 411px){ /*PIXEL 2 XL*/
+}
+@media screen and (max-width: 375px){/*iPhone 6/7/8*/
+      #main
+    {
+        border-radius: 20px;
+        margin-top: 26%;
+    }
+    #rregjistrohu
+    {
+        text-align: center;
+        margin-left: -27%;
+        margin-bottom: 7px;
+    }
+    #rregjistrohu a
+    {
+        border-bottom: 2px solid #ffff3c;
+        padding: 10px;
+    }
+    ul a
+    {
+        font-size: 38px;
+        color: white;
+        font-family: 'Oswald',sans-serif;
+        text-align: center;
+    }
+    ul a:hover
+    {
+        text-decoration: none;
+        color: #ffff3c;
+    }
+    #main input
+    {
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        margin-left: -22%;
+    }
+    .form-control
+    {
+        margin-top: 50px;
+        border-radius: 16px;
+        border: 0px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: black;
+        padding: 20px;
+        height: 50px;
+        font-family: 'Oswald',sans-serif;
+    }
+    #form img
+    {
+        margin-top: 23%;
+        display: block;
+        margin-left: 30%;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 360px){ /*Galaxy S5*/
+     #main
+    {
+        border-radius: 20px;
+        margin-top: 26%;
+    }
+    #rregjistrohu
+    {
+        text-align: center;
+        margin-left: -29%;
+        margin-bottom: 7px;
+    }
+    #rregjistrohu a
+    {
+        border-bottom: 2px solid #ffff3c;
+        padding: 10px;
+    }
+    ul a
+    {
+        font-size: 38px;
+        color: white;
+        font-family: 'Oswald',sans-serif;
+        text-align: center;
+    }
+    ul a:hover
+    {
+        text-decoration: none;
+        color: #ffff3c;
+    }
+    #main input
+    {
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        margin-left: -26%;
+    }
+    .form-control
+    {
+        margin-top: 50px;
+        border-radius: 16px;
+        border: 0px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        color: black;
+        padding: 20px;
+        height: 50px;
+        font-family: 'Oswald',sans-serif;
+    }
+    #form img
+    {
+        margin-top: 20%;
+        display: block;
+        margin-left: 30%;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+@media screen and (max-width: 320px){ /*iPhone 5*/
+     #main
+    {
+        border-radius: 20px;
+        margin-top: 26%;
+    }
+    #rregjistrohu
+    {
+        text-align: center;
+        margin-left: -30%;
+        margin-bottom: 7px;
+    }
+    #rregjistrohu a
+    {
+        border-bottom: 2px solid #ffff3c;
+        padding: 10px;
+    }
+    ul a
+    {
+        font-size: 33px;
+        color: white;
+        font-family: 'Oswald',sans-serif;
+        text-align: center;
+    }
+    ul a:hover
+    {
+        text-decoration: none;
+        color: #ffff3c;
+    }
+    #main input
+    {
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+        margin-bottom: 25px;
+        margin-left: -36%;
+    }
+    .form-control
+    {
+        margin-top: 50px;
+        border-radius: 16px;
+        border: 0px;
+        margin-bottom: 20px;
+        font-size: 28px;
+        color: black;
+        padding: 20px;
+        height: 45px;
+        font-family: 'Oswald',sans-serif;
+    }
+    #form img
+    {
+        margin-top: 20%;
+        display: block;
+        margin-left: 30%;
+        margin-right: auto;
+        width: 45%;
+    }
+}

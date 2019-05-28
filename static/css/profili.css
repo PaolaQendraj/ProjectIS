@@ -1,0 +1,754 @@
+* 
+{
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+/*Navbar*/
+nav 
+{
+    padding: 8px;
+}
+
+.logo 
+{
+    float: left;
+    padding: 9px;
+    margin-bottom: 5px;
+}
+
+.logo a 
+{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-decoration: none;
+}
+
+nav ul 
+{
+    float: right;
+    margin-top: 5px;
+}
+
+nav ul li 
+{
+    display: inline-block;
+    float: left;
+}
+
+nav ul li:not(:first-child) 
+{
+    margin-left: 40px;
+}
+
+nav ul li:last-child
+{
+    margin-right: -70px;
+}
+
+nav ul li a 
+{
+    display: inline-block;
+    outline: none;
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+nav ul li a:hover
+{
+    text-decoration: none;
+    color: #f7838d;
+}
+.dropdown a
+{
+    text-decoration: none;
+}
+.dropdown-menu 
+{
+    padding:10px 15px;
+}
+.dropdown-menu li a
+{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+.dropdown-menu li a:hover
+{
+    color: #f7838d;
+}
+@media screen and (max-width: 864px) {
+    .logo 
+    {
+        margin-top: -10px;
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .nav-wrapper
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: #4ECBEE;
+        opacity: 0;
+        transition: all 0.2s ease;
+    }
+
+    .nav-wrapper ul 
+    {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+
+    .nav-wrapper ul li 
+    {
+        display: block;
+        float: none;
+        width: 100%;
+        text-align: right;
+        margin-bottom: 10px;
+    }
+
+    .nav-wrapper ul li:nth-child(1) a
+    {
+        transition-delay: 0.2s;
+    }
+
+    .nav-wrapper ul li:nth-child(2) a 
+    {
+        transition-delay: 0.3s;
+    }
+
+    .nav-wrapper ul li:nth-child(3) a 
+    {
+        transition-delay: 0.4s;
+    }
+    .nav-wrapper ul li:nth-child(4) a 
+    {
+        transition-delay: 0.5s;
+    }
+    .nav-wrapper ul li:nth-child(5) a 
+    {
+        transition-delay: 0.6s;
+    }
+    .nav-wrapper ul li:nth-child(6) a 
+    {
+        transition-delay: 0.7s;
+    }
+    .nav-wrapper ul li:not(:first-child) 
+    {
+        margin-left: 0;
+    }
+
+    .nav-wrapper ul li a 
+    {
+        padding: 10px 24px;
+        opacity: 0;
+        color: white;
+        font-size: 17px;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        transform: translateX(-20px);
+        transition: all 0.2s ease;
+        font-family: 'Poppins',sans-serif;
+      }
+
+    .nav-btn 
+    {
+        position: fixed;
+        right: 10px;
+        display: block;
+        width: 48px;
+        height: 48px;
+        cursor: pointer;
+        z-index: 9999;
+        border-radius: 50%;
+    }
+
+    .nav-btn i 
+    {
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #000;
+        border-radius: 2px;
+        margin-left: 14px;
+    }
+
+    .nav-btn i:nth-child(1) 
+    {
+        margin-top: 16px;
+    }
+
+    .nav-btn i:nth-child(2) 
+    {
+        margin-top: 4px;
+        opacity: 1;
+    }
+
+    .nav-btn i:nth-child(3)
+    {
+        margin-top: 4px;
+    }
+    .container
+    {
+        margin-bottom: 10px;
+    }
+    .dropdown-menu
+    {
+        margin-left: -6%;
+        border: none;
+        background-color: #4ECBEE;
+    }
+    .dropdown-menu ul li a 
+    {
+         
+    }
+}
+
+#nav:checked + .nav-btn
+{
+    transform: rotate(45deg);
+}
+
+#nav:checked + .nav-btn i 
+{
+    background: #000;
+    transition: transform 0.2s ease;
+}
+
+#nav:checked + .nav-btn i:nth-child(1) 
+{
+    transform: translateY(6px) rotate(180deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) 
+{
+    opacity: 0;
+}
+
+#nav:checked + .nav-btn i:nth-child(3) 
+{
+    transform: translateY(-6px) rotate(90deg);
+}
+
+#nav:checked ~ .nav-wrapper 
+{
+    z-index: 9990;
+    opacity: 1;
+}
+
+#nav:checked ~ .nav-wrapper ul li a 
+{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hidden 
+{
+    display: none;
+}
+
+/*Navbar*/
+
+/*Header*/
+#header
+{
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+#profile
+{
+    margin-top: 8%;
+}
+#profilepic
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 24%;
+}
+#emermbiemer h3
+{
+    margin-top: -3%;
+    color: white;
+    text-align: center;
+    font-family: 'Karla',sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+#emermbiemer h4
+{
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#arrow_icon
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%
+}
+
+@media screen and (max-width: 1024px){ /*iPad Pro*/
+     #header
+    {
+        background-image: url(../images/profilebgipadpro.png);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+    #profile
+    {
+        margin-top: 30%;
+    }
+    #profilepic
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 45%;
+    }
+    #emermbiemer h3
+    {
+        color: white;
+        font-family: 'Karla',sans-serif;
+        font-weight: 600;
+        font-size: 60px;
+    }
+    #emermbiemer h4
+    {
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+    #arrow_icon
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%
+    }
+}
+@media screen and (max-width: 768px){ /*iPad*/
+    #btn_perfundo
+    {
+        margin-left: 40%;
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    
+}
+@media screen and (max-width: 414px){ /*iPhone 6/7/8 Plus*/  
+    #header
+    {
+        background-image: url(../images/profiliiphone6plus.png);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+    #profile
+    {
+        margin-top: 43%;
+    }
+    #profilepic
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    #emermbiemer h3
+    {
+        color: white;
+        font-family: 'Karla',sans-serif;
+        font-weight: 600;
+        font-size: 35px;
+    }
+    #emermbiemer h4
+    {
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 23px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+}
+@media screen and (max-width: 360px){ /*Galaxy S5*/
+    #header
+    {
+        background-image: url(../images/profiliiphone6plus.png);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+}
+@media screen and (max-width: 320px){ /*iPhone 5*/
+  #header
+    {
+        background-image: url(../images/profiliiphone6plus.png);
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+    }
+}
+
+/*Profil*/
+#profili
+{
+    margin-bottom: 100%;
+}
+#tedhena h2
+{
+    margin-left: 29.5%;
+    margin-top: 10%;
+    margin-bottom: 9%;
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color:#5CE1E6;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+}
+#tedhena h3
+{
+    margin-left: 18%;
+    width: 320px;
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    background-color:#ffaaaa;
+    border-radius: 6px;
+    padding: 10px;
+}
+ #tedhena span
+{
+    font-weight: bold;
+}
+@media screen and (max-width: 1024px){ /*iPad Pro*/
+    #tedhena h2
+{
+    margin-left: 33%;
+    margin-top: 25%;
+    margin-bottom: 9%;
+    font-size: 25px;
+}
+#tedhena h3
+{
+    margin-left: 18%;
+    font-size: 22px;
+    padding: 15px;
+}
+}
+@media screen and (max-width: 768px){ /*iPad*/
+  #tedhena h2
+{
+    margin-left: 38%;
+    margin-top: 25%;
+    margin-bottom: 9%;
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color:#5CE1E6;
+    padding: 10px;
+    border-radius: 20px;
+    width: 200px;
+}
+#tedhena h3
+{
+    margin-left: 18%;
+    width: 320px;
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    background-color:#ffaaaa;
+    border-radius: 6px;
+    padding: 10px;
+}   
+}
+
+@media screen and (max-width: 414px){ /*iPhone 6/7/8 Plus*/ 
+      #tedhena h2
+    {
+        margin-left: 70%;
+        margin-top: 25%;
+        margin-bottom: 9%;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color:#5CE1E6;
+        padding: 10px;
+        border-radius: 20px;
+        width: 200px;
+    }
+    #tedhena h3
+    {
+        margin-left: 29%;
+        width: 320px;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 19px;
+        letter-spacing: 2px;
+        background-color:#ffaaaa;
+        border-radius: 6px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 375px){ /*iPhone 6/7/8 Plus*/ 
+      #tedhena h2
+    {
+        margin-left: 65%;
+        margin-top: 40%;
+        margin-bottom: 9%;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color:#5CE1E6;
+        padding: 10px;
+        border-radius: 20px;
+        width: 200px;
+    }
+    #tedhena h3
+    {
+        margin-left: 20%;
+        width: 320px;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        background-color:#ffaaaa;
+        border-radius: 6px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 360px){ /*Galaxy S5*/
+    #tedhena h2
+    {
+        margin-left: 65%;
+        margin-top: 45%;
+        margin-bottom: 9%;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color:#5CE1E6;
+        padding: 10px;
+        border-radius: 20px;
+        width: 200px;
+    }
+    #tedhena h3
+    {
+        margin-left: 16%;
+        width: 320px;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        background-color:#ffaaaa;
+        border-radius: 6px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width: 320px){ /*Galaxy S5*/
+    #tedhena h2
+    {
+        margin-left: 55%;
+        margin-top: 45%;
+        margin-bottom: 9%;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color:#5CE1E6;
+        padding: 10px;
+        border-radius: 20px;
+        width: 200px;
+    }
+    #tedhena h3
+    {
+        margin-left: 15.5%;
+        width: 280px;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 15px;
+        letter-spacing: 2px;
+        background-color:#ffaaaa;
+        border-radius: 6px;
+        padding: 10px;
+    }
+}
+
+#arritjet h2
+{
+    margin-top: 7%;
+    margin-bottom: 9%;
+    color: white;
+    text-align: center;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color:#5CE1E6;
+    padding: 10px;
+    border-radius: 20px;
+    width: 400px;
+}
+
+.flip-card
+{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+}
+.flip-card-back
+{
+    background-color: #ffaaaa;
+    color: white;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+.flip-card-back .back-header
+{
+    height: 45%;
+    text-align: center;
+}
+.flip-card-back .back-header img
+{
+    width: 60%;
+    margin-top: 20px;
+}
+.flip-card-inner
+{
+    position: relative;
+    height: 45%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+.flip-card-back, .flip-card-front
+{
+    position: absolute;
+    width: 100%;
+    height: 180%;
+    backface-visibility: hidden;
+}
+.flip-card:hover .flip-card-inner
+{
+    transform: rotateY(180deg);
+}
+.flip-card-back .back-footer
+{
+    height: 55%;
+    padding: 0 15px;
+}
+#emrivaktit
+{
+    margin-left:-31px;
+    margin-top: 6%;
+}
+#emrivaktit h1
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Century Gothic',sans-serif;
+    font-weight: 600;
+}
+.back-footer p
+{
+    margin-top: -12%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Century Gothic',sans-serif;
+    text-align: center;
+}
+@media screen and (max-width: 414px){ /*iPhone 6/7/8 Plus*/ 
+    #arritjet h2
+    {
+        margin-top: 15%;
+        margin-bottom: 9%;
+        margin-left: 17%;
+        color: white;
+        text-align: center;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        background-color:#5CE1E6;
+        padding: 10px;
+        border-radius: 20px;
+        width: 270px;
+    }   
+    #arritjet #imazhet
+    {
+        margin-left: -4%;
+    }
+    .flip-card:checked .flip-card-inner
+    {
+    transform: rotateY(180deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
