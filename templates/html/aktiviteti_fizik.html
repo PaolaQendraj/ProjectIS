@@ -1,0 +1,415 @@
+{% load static%}
+<html style="overflow-x: hidden;">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="{% static 'css/aktiviteti_fizik.css' %}" rel="stylesheet">
+        <link  href="{% static 'css/animate.css' %}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.css >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.min.js"></script>
+        <link href="{% static 'css/aos.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!--Navbar-->
+            <div class="container">
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    <div class="logo">
+                        <a href="#">Health App</a>
+                    </div>
+                    <div class="nav-wrapper">
+                        <ul>
+                            <li><a href="/index/">Faqja Kryesore</a></li>
+                            {% if user.is_authenticated %}
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Shërbimet<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
+                                        <li><a href="/aktiviteti_fizik/" style="margin-left: -19%">Aktivitetet Fizike</a></li>
+                                        <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="/profili/">Profili</a></li>
+                            <li><a href="/pyetesori/">Pyetesori</a></li>
+                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                            {% else %}
+                            <li><a href="/register/">Regjistrohu</a></li>
+                            <li><a href="/login/">Hyr</a></li>
+                            {% endif %}
+                        </ul>
+                        <!--data-toggle="modal" data-target="#LoginModal"-->
+                    </div>
+                </nav>
+            </div>
+            <!--/Navbar-->
+            <!--Planifikuesi Ushqimor Header-->
+            <div class="row" id="contentUshqimi" style="background-image: url('/static/images/aktivitetibg.jpg')">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="content_txt">
+                    <h1 id="contentText1" data-aos="fade-right" data-aos-duration="500" data-aos-delay="200">Planifikuesi i Aktivitetit</h1>
+                    <h2 id="contentText2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400">do t'ju ndihmoj te arrini<br> qellimin tuaj!</h2>
+                    <div class="row" id="imazh">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="{% static "images/yogalogo.png" %}" id="contentimg" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"></div>
+            </div>
+            <!--/Planifikuesi Ushqimor Header-->
+            <!--Aktivitetet-->
+            <div class="row" id="vaktet">
+                <div class="row">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                        <h1 id="vaktetText" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-sine">Zgjidhni nje prej vakteve</h1>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
+               </div>
+                <div class="container" id="containervaktet">
+                <div class="row" id="secilivakt">
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col1">
+                        <img src="{% static "images/circle1.png" %}" id="circle1">
+                        <a href="#vakti1" onclick="function()"><img  src="{% static "images/naturesport.png" %}" id="mengjesi"></a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col2">
+                        <img src="{% static "images/circle2.png" %}" id="circle2">
+                        <a href="#vakti2" onclick="function()"><img src="{% static "images/watersport.png" %}" id="dreka"></a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col3">
+                        <img src="{% static "images/circle3.png" %}" id="circle3">
+                        <a href="#vakti3" onclick="function()"><img src="{% static "images/teamsport.png" %}" id="darka"></a>
+                    </div>
+                    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="col4">
+                        <img src="{% static "images/circle4.png" %}" id="circle4">
+                        <a href="#vakti4" onclick="function()"> <img  src="{% static "images/gymsport.png" %}" id="snacks"></a>
+                    </div>
+                </div>
+                    <div class="row" id="secilivakt_emri">
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1mengjesi">Sporte në natyrë</h1>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1ndryshe">Sporte ujore</h1>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1ndryshe">Sporte në grup</h1>
+                        </div>
+                        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                            <h1 id="h1ndryshe">Palestër</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/Vaktet-->
+            <script>
+                $(document).ready(function()
+                {
+                    $("#mengjesi").click(function()
+                    {
+                        $("#vakti1").fadeToggle(2000);
+                        $("#vakti2").fadeOut();
+                        $("#vakti3").fadeOut();
+                        $("#vakti4").fadeOut();
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function()
+                {
+                    $("#dreka").click(function()
+                    {
+                        $("#vakti2").fadeToggle();
+                        $("#vakti1").fadeOut();
+                        $("#vakti3").fadeOut();
+                        $("#vakti4").fadeOut();
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function()
+                {
+                    $("#darka").click(function()
+                    {
+                        $("#vakti3").fadeToggle();
+                        $("#vakti1").fadeOut();
+                        $("#vakti2").fadeOut();
+                        $("#vakti4").fadeOut();
+                    });
+                });
+            </script>
+            <script>
+                $(document).ready(function()
+                {
+                    $("#snacks").click(function()
+                    {
+                        $("#vakti4").fadeToggle();
+                        $("#vakti1").fadeOut();
+                        $("#vakti2").fadeOut();
+                        $("#vakti3").fadeOut();
+                    });
+                });
+            </script>
+            <div id="vakti1" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/sportnatyre.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/headingsport.png" %}"  id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    {% for pr in sportnatyre %}
+                    {% if forloop.first %}<div class="row">{% endif %}
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{{ pr.foto.url }}" >
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>{{ pr.emri }}</h3>
+                                    <input type="number" id="minuta" placeholder="Vendosni minutat">
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <button id="btn_llogarit" type="button" onclick="llogarit()">Llogarisni kaloritë që do të hiqen</button>
+                            </div>
+                            <div class="row" id="rezultati">
+                                <h5>Rezultati:<span id="final"></span></h5>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <script type="text/javascript">
+                        function llogarit () {
+                            var rezultat = 0.0
+                            var minuta = document.getElementById("minuta").value;
+                            rezultat = {{ pesha }} * {{ pr.koeficienti }}  * minuta/60;
+                            document.getElementById('final').innerHTML = rezultat;
+                        }
+                    </script>
+                    {% if forloop.last %}</div>{% endif %}
+                    {% endfor %}
+                    <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                <button id="btn_perfundo">Përfundo</button>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                <!--/Ushqimet-->
+            </div>
+        <div id="vakti2" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/watersport.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/headingsport.png" %}"  id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    {% for pr in sportujor %}
+                    {% if forloop.first %}<div class="row">{% endif %}
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{{ pr.foto.url }}" >
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>{{ pr.emri }}</h3>
+                                    <input type="number" id="minuta" placeholder="Vendosni minutat">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <button id="btn_llogarit" type="button" onclick="llogarit1()">Llogarisni kaloritë që do të hiqen</button>
+                            </div>
+                            <div class="row" id="rezultati">
+                                <h5>Rezultati:<span id="rezultat"></span></h5>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+
+                    {% if forloop.last %}</div>{% endif %}
+                    {% endfor %}
+                    <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                <button id="btn_perfundo">Përfundo</button>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                <!--/Ushqimet-->
+            </div>
+        <div id="vakti3" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/sportgrupi.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/headingsport.png" %}"  id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    {% for pr in sportgrupi %}
+                    {% if forloop.first %}<div class="row">{% endif %}
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{{ pr.foto.url }}" >
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>{{ pr.emri }}</h3>
+                                    <input type="number" id="minuta" placeholder="Vendosni minutat">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <button id="btn_llogarit" type="button" onclick="llogarit2()">Llogarisni kaloritë që do të hiqen</button>
+                            </div>
+                            <div class="row" id="rezultati">
+                                <h5>Rezultati:<span id="rezultat"></span></h5>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <script type="text/javascript">
+                        function llogarit2() {
+                        var minuta = document.getElementById("minuta").value;
+                        var pesha = {{ pesha }};
+                        var koeficienti = koeficienti;
+                        var rezultat = (pesha * koeficienti) * minuta/60 ;
+                        document.getElementById('rezultat').innerHTML = rezultat;
+                        }
+                    </script>
+                    {% if forloop.last %}</div>{% endif %}
+                    {% endfor %}
+                    <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                <button id="btn_perfundo">Përfundo</button>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                <!--/Ushqimet-->
+            </div>
+        <div id="vakti4" style="display: none">
+                <div class="container">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"><img src="{% static "images/palester.gif" %}" id="vakti1foto"></div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                </div>
+                <!--Ushqimet-->
+                <div class="container" id="ushqimet">
+                    <div class="row">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                            <img src="{% static "images/headingsport.png" %}"  id="heading">
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    {% for pr in sportpalester %}
+                    {% if forloop.first %}<div class="row">{% endif %}
+                    <div class="row" id="lista">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                            <div class="row">
+                                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                                    <img src="{{ pr.foto.url }}" >
+                                </div>
+                                <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                    <h3>{{ pr.emri }}</h3>
+                                    <input type="number" id="minuta" placeholder="Vendosni minutat">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" id="lendet_ushqyese">
+                            <div class="row">
+                                <button id="btn_llogarit" type="button" onclick="llogarit1()">Llogarisni kaloritë që do të hiqen</button>
+                            </div>
+                            <div class="row" id="rezultati">
+                                <h5>Rezultati:<span id="rezultat"></span></h5>
+                            </div>
+                        </div>
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                    <script type="text/javascript">
+                        function llogarit1() {
+                        var minuta = document.getElementById("minuta").value;
+                        var pesha = {{ pesha }};
+                        var koeficienti = koeficienti;
+                        var rezultat = (pesha * koeficienti) * minuta/60 ;
+                        document.getElementById('rezultat').innerHTML = rezultat;
+                        }
+                    </script>
+                    {% if forloop.last %}</div>{% endif %}
+                    {% endfor %}
+                    <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+                                <button id="btn_perfundo">Përfundo</button>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
+                    </div>
+                </div>
+                <!--/Ushqimet-->
+            </div>
+        </header>
+            <script src="{% static "script/aos.js" %}"></script>
+            <script type="text/javascript">
+            AOS.init({
+                offset:200,
+                duration:700,
+            });
+            </script>
+    </body>
+</html>

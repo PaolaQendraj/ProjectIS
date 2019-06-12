@@ -28,26 +28,31 @@
                         <i></i>
                     </label>
                     <div class="logo">
-                        <a href="#">HEALTH APP</a>
+                        <a href="#">Health App</a>
                     </div>
                     <div class="nav-wrapper">
                         <ul>
                             <li><a href="/index/">Faqja Kryesore</a></li>
-                            <li><a href="/register/">Regjistrohu</a></li>
-                            <li><a href="/login/">Hyr</a></li>
+                            {% if user.is_authenticated %}
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                     Shërbimet<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
-                                        <li><a href="#" style="margin-left: -19%">Aktivitetet Fizike</a></li>
+                                        <li><a href="/aktiviteti_fizik/" style="margin-left: -19%">Aktivitetet Fizike</a></li>
                                         <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
                                     </ul>
                             </li>
                             <li><a href="/profili/">Profili</a></li>
                             <li><a href="/pyetesori/">Pyetesori</a></li>
+                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                            {% else %}
+                            <li><a href="/register/">Regjistrohu</a></li>
+                            <li><a href="/login/">Hyr</a></li>
+                            {% endif %}
                         </ul>
-                  </div>
+                        <!--data-toggle="modal" data-target="#LoginModal"-->
+                    </div>
                 </nav>
             </div>
             <!--/Navbar-->
@@ -86,9 +91,9 @@
                 <div class="col-sm-3 col-md-3"></div>
                 <div class="col-sm-6 col-md-6 text-center " id="pyetja1">
                      <h2>QËLLIMI IM</h2>
-                     <br><input type="radio" name="qellimi" value="humbjepeshe" required><span>&nbsp;Humbje në peshë</span><br>
-                     <input type="radio" name="qellimi" value="shtimpeshe" required><span>&nbsp;Shtim në peshë</span><br>
-                     <input type="radio" name="qellimi" value="ruajtjepeshe" required><span>&nbsp;Ruajtje e peshës</span><br>
+                     <br><input type="radio" name="qellimi" value="Humbje Peshe" required><span>&nbsp;Humbje në peshë</span><br>
+                     <input type="radio" name="qellimi" value="Shtim Peshe" required><span>&nbsp;Shtim në peshë</span><br>
+                     <input type="radio" name="qellimi" value="Ruajtje Peshe" required><span>&nbsp;Ruajtje e peshës</span><br>
                 </div>
                 <div class="col-sm-3 col-md-3"></div>
             </div>

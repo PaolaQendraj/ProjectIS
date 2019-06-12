@@ -29,6 +29,9 @@
                         <input type="text" class="form-control" name="username" placeholder="Username">
                         <input type="password" class="form-control" name="password" placeholder="Password">
                         <button type="submit" id="buton" class=" btn btn-info">LOGIN</button>
+                        {% if user.is_authenticated %}
+
+                        {% endif %}
                     </form>
                 </div>
                 <div class="col-xs-3 col-sm-3 col-md-3 col-xl-3"></div>

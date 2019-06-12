@@ -26,6 +26,7 @@ urlpatterns = [
     path('login/', login_user),
     path('pyetesori/', pyetesori),
     path('planifikuesi_ushqimor/', planifikuesi_ushqimor),
+    path('aktiviteti_fizik/', aktiviteti_fizik),
     path('profili/', profili),
     path('pyetesori_form/', pyetesori_form),
     path('accounts/', include('django.contrib.auth.urls'))

@@ -9,7 +9,7 @@ class Vakte(models.Model):
     def __str__(self):
         return self.emri
 
-class Ushqimet(models.Model):
+class Mengjesi(models.Model):
     emri = models.CharField(max_length=50)
     sasi = models.IntegerField()
     kalori = models.FloatField()
@@ -19,11 +19,51 @@ class Ushqimet(models.Model):
     fibra = models.FloatField()
     sasi_total = models.CharField(max_length=50)
     foto = models.ImageField(upload_to='media')
-    vaktet = models.ForeignKey(Vakte, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return self.emri
 
+class Dreka(models.Model):
+    emri = models.CharField(max_length=50)
+    sasi = models.IntegerField()
+    kalori = models.FloatField()
+    proteina = models.FloatField()
+    sheqerna = models.FloatField()
+    yndyrna = models.FloatField()
+    fibra = models.FloatField()
+    sasi_total = models.CharField(max_length=50)
+    foto = models.ImageField(upload_to='media')
+
+    def __str__(self):
+        return self.emri
+
+class Darka(models.Model):
+    emri = models.CharField(max_length=50)
+    sasi = models.IntegerField()
+    kalori = models.FloatField()
+    proteina = models.FloatField()
+    sheqerna = models.FloatField()
+    yndyrna = models.FloatField()
+    fibra = models.FloatField()
+    sasi_total = models.CharField(max_length=50)
+    foto = models.ImageField(upload_to='media')
+
+    def __str__(self):
+        return self.emri
+
+class Snacks(models.Model):
+    emri = models.CharField(max_length=50)
+    sasi = models.IntegerField()
+    kalori = models.FloatField()
+    proteina = models.FloatField()
+    sheqerna = models.FloatField()
+    yndyrna = models.FloatField()
+    fibra = models.FloatField()
+    sasi_total = models.CharField(max_length=50)
+    foto = models.ImageField(upload_to='media')
+
+    def __str__(self):
+        return self.emri
 class Pyetesor(models.Model):
     user = models.ForeignKey(User, on_delete=models.DO_NOTHING, default='01')
     pesha = models.FloatField()
@@ -36,3 +76,46 @@ class Pyetesor(models.Model):
 
     def __int__(self):
         return self.pesha
+
+class Sport_Natyre(models.Model):
+    emri = models.CharField(max_length=50)
+    koeficienti = models.FloatField()
+    foto = models.ImageField(upload_to='media')
+
+    def __str__(self):
+        return self.emri
+
+class Sport_Ujore(models.Model):
+    emri = models.CharField(max_length=50)
+    koeficienti = models.FloatField()
+    foto = models.ImageField(upload_to='media')
+
+    def __str__(self):
+        return self.emri
+
+class Sport_Grupe(models.Model):
+    emri = models.CharField(max_length=50)
+    koeficienti = models.FloatField()
+    foto = models.ImageField(upload_to='media')
+
+    def __str__(self):
+        return self.emri
+
+class Sport_Palester(models.Model):
+    emri = models.CharField(max_length=50)
+    koeficienti = models.FloatField()
+    foto = models.ImageField(upload_to='media')
+
+    def __str__(self):
+        return self.emri
+
+class Add_Food(models.Model):
+    user = models.ForeignKey(User, on_delete=models.DO_NOTHING)
+    mengjesi = models.ForeignKey(Mengjesi, on_delete=models.DO_NOTHING)
+    dreke = models.ForeignKey(Dreka, on_delete=models.DO_NOTHING)
+    snacks = models.ForeignKey(Snacks, on_delete=models.DO_NOTHING)
+    check_out = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.user
+

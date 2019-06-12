@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bfdf6e0-0bad-419d-a8bc-ec7cae8c694c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Ananas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Arra.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Kivi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Lajthi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Leng_portokalli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Limon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Mandarine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Mango.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Molle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Patate_e_zier.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Pjeper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Pjeshke.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Portokall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Rrush.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Shalqi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Shege.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Smoothie_banane_luleshtrydhe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Smoothie_banane_luleshtrydhe_1LviLjZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Smoothie_pjeshke_mango.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_1_a2SZGny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_1_z2A71Z4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_JMTqlHp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_pAD3zxf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/avokado_iBNcqwQ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/bajame.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/bajame_stIjttZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/banane_BteylXH.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/basket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/blackberry_p8kqbFm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/blueberry_LovnaAY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_1BNApoR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_1dkU4Rt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_4B4gg6i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_6XtsWld.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_7a80Lx0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_DOEdxYu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_ES15peB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_IHglnvB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_N5Ojxe7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_NubRFr3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_QeJacfC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_R1LX5cR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_RCr60Du.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_RHhJOfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_RORzLC9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_Vjl7A2P.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_Z5kqtY0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_mlINTpz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_nXeB3TA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_op0HSn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_voEXxeq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_xpAdSO6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_zKqiAHJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/briosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/brokoli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/brokoli_ZUbWuun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/brokoli_xQ8hxhh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_AxaW1CN.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_CSbgc1c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_Ygx7SzB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_tmLG4Yk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/crossfit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/domate_DbOuZxe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjemoderuar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjengadal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjerutin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjerutin_RhCY7tD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjeshpejt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjeshpejt_poJUaEl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/filetopule.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/filetopule_2E4YWKa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/futboll.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/futboll_Pp9OQRa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/golf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/handball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/karrota.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kastravec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kastravec_0BhC2Ze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kercimenergjik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kercimlehte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/laker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/lulelaker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/lyleshtrydhe_t1OSITW.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/maraton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/moderuar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ngadal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ngjitje.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/not.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/not_u6rG3us.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/patellxhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/peshk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/peshk_JnGuFIv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/raspberry_OmMOioZ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/shumshpejt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/spinaq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/spinaq_DY12YYV.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/stika.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/stika_ZF4mgJe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/voley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/vrapecje.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/vrapnormal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/vrapshpejt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/watersport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190529_1445.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0006_auto_20190529_1449.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0007_auto_20190529_1451.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0008_remove_mengjesi_vakti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0009_darka_dreka_snacks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0010_aktiviteti.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0011_auto_20190606_1244.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0012_add_food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/aktiviteti_fizik.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/aktivitetibg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/crossfit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/gymsport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/headingsport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/naturesport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/palester.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sportgrupi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/sportnatyre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/teamsport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/watersport.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/watersport.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/yogalogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/aktiviteti_fizik.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/HealthApp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HealthApp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HealthApp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectIS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectIS/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/healthapp_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/healthapp_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/planiushqimor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/planiushqimor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/profili.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/profili.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/pyetesori.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/pyetesori.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ProjectIS$views.coverage" NAME="views Coverage Results" MODIFIED="1558611006430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/HealthApp" />
+    <SUITE FILE_PATH="coverage/ProjectIS$urls.coverage" NAME="urls Coverage Results" MODIFIED="1558175439256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ProjectIS" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ProjectIS" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HealthApp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1904">
+              <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HealthApp/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HealthApp/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1870">
+              <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/html/healthapp_login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/html/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectIS/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <folding>
+                <element signature="e#633#665#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ill</find>
+      <find>ima</find>
+      <find>image</find>
+      <find>content</find>
+      <find>contentUshqimi</find>
+      <find>#contentUshqimi</find>
+      <find>snacks</find>
+      <find>images</find>
+      <find>img</find>
+      <find>aos</find>
+      <find>.container</find>
+      <find>static_</find>
+      <find>tesr</find>
+      <find>footer</find>
+      <find>background-image</find>
+      <find>tes</find>
+      <find>url</find>
+      <find>header</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/static/css/healthapp_register.css" />
+        <option value="$PROJECT_DIR$/static/css/planiushqimor.css" />
+        <option value="$PROJECT_DIR$/static/css/pyetesori.css" />
+        <option value="$PROJECT_DIR$/static/css/profili.css" />
+        <option value="$PROJECT_DIR$/HealthApp/apps.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/ProjectIS/settings.py" />
+        <option value="$PROJECT_DIR$/HealthApp/migrations/0001_initial.py" />
+        <option value="$PROJECT_DIR$/static/css/healthapp_login.css" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_register.html" />
+        <option value="$PROJECT_DIR$/HealthApp/models.py" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
+        <option value="$PROJECT_DIR$/HealthApp/admin.py" />
+        <option value="$PROJECT_DIR$/static/css/aktiviteti_fizik.css" />
+        <option value="$PROJECT_DIR$/ProjectIS/urls.py" />
+        <option value="$PROJECT_DIR$/templates/html/index.html" />
+        <option value="$PROJECT_DIR$/templates/html/pyetesori.html" />
+        <option value="$PROJECT_DIR$/templates/html/aktiviteti_fizik.html" />
+        <option value="$PROJECT_DIR$/templates/html/profili.html" />
+        <option value="$PROJECT_DIR$/HealthApp/views.py" />
+        <option value="$PROJECT_DIR$/templates/html/planiushqimor.html" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_login.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="151" />
+    <option name="y" value="-8" />
+    <option name="width" value="986" />
+    <option name="height" value="663" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ProjectIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectIS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectIS" type="462c0819:PsiDirectoryNode" />
+              <item name="HealthApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectIS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjectIS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectIS" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectIS" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectIS" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Shendeti" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\images" />
+      <recent name="C:\Users\user\PycharmProjects\ProjectIS\templates\html" />
+      <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\css" />
+      <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\script" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django tests.Test: templates.html">
+    <configuration name="Test: templates.html" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="ProjectIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="templates.html" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjectIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ProjectIS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ProjectIS/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ProjectIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/HealthApp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HealthApp/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjectIS" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ProjectIS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ProjectIS.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: templates.html" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.urls" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bfdf6e0-0bad-419d-a8bc-ec7cae8c694c" name="Default Changelist" comment="" />
+      <created>1558174724291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558174724291</updated>
+      <workItem from="1558174802837" duration="5492000" />
+      <workItem from="1558337650200" duration="866000" />
+      <workItem from="1558339804522" duration="219000" />
+      <workItem from="1558343589448" duration="711000" />
+      <workItem from="1558440414911" duration="44000" />
+      <workItem from="1558607052377" duration="3885000" />
+      <workItem from="1558611002784" duration="3626000" />
+      <workItem from="1558616980081" duration="612000" />
+      <workItem from="1558643081930" duration="2238000" />
+      <workItem from="1558695793294" duration="1099000" />
+      <workItem from="1558730774395" duration="1719000" />
+      <workItem from="1558780445102" duration="5011000" />
+      <workItem from="1558790234511" duration="6031000" />
+      <workItem from="1558864223674" duration="3821000" />
+      <workItem from="1558888711680" duration="10589000" />
+      <workItem from="1558939180502" duration="1466000" />
+      <workItem from="1558941320199" duration="1242000" />
+      <workItem from="1558947317911" duration="1012000" />
+      <workItem from="1558951775136" duration="2026000" />
+      <workItem from="1558955464889" duration="28000" />
+      <workItem from="1558957856202" duration="569000" />
+      <workItem from="1558959399471" duration="96000" />
+      <workItem from="1558959780536" duration="149000" />
+      <workItem from="1558993844373" duration="1471000" />
+      <workItem from="1559036856513" duration="1765000" />
+      <workItem from="1559041583515" duration="5355000" />
+      <workItem from="1559077210958" duration="649000" />
+      <workItem from="1559079294259" duration="2297000" />
+      <workItem from="1559125648794" duration="10518000" />
+      <workItem from="1559141237476" duration="615000" />
+      <workItem from="1559152528518" duration="607000" />
+      <workItem from="1559196413081" duration="642000" />
+      <workItem from="1559204255370" duration="47000" />
+      <workItem from="1559205266024" duration="169000" />
+      <workItem from="1559211306947" duration="3550000" />
+      <workItem from="1559297619828" duration="37000" />
+      <workItem from="1559562272854" duration="1035000" />
+      <workItem from="1559594062399" duration="1938000" />
+      <workItem from="1559629190118" duration="2576000" />
+      <workItem from="1559651851048" duration="5933000" />
+      <workItem from="1559668449888" duration="3267000" />
+      <workItem from="1559723275799" duration="160000" />
+      <workItem from="1559724706916" duration="907000" />
+      <workItem from="1559731993652" duration="1824000" />
+      <workItem from="1559815082093" duration="5294000" />
+      <workItem from="1559820728635" duration="442000" />
+      <workItem from="1559824995362" duration="1240000" />
+      <workItem from="1559902703258" duration="46000" />
+      <workItem from="1560031785151" duration="2832000" />
+      <workItem from="1560063535844" duration="8300000" />
+      <workItem from="1560086575046" duration="954000" />
+      <workItem from="1560111293008" duration="5548000" />
+      <workItem from="1560149937334" duration="1077000" />
+      <workItem from="1560161140045" duration="8114000" />
+      <workItem from="1560193041925" duration="7404000" />
+      <workItem from="1560236774752" duration="83000" />
+      <workItem from="1560236887945" duration="6660000" />
+      <workItem from="1560259005465" duration="119000" />
+      <workItem from="1560260351479" duration="1066000" />
+      <workItem from="1560263925833" duration="5366000" />
+      <workItem from="1560284422663" duration="3550000" />
+      <workItem from="1560327454967" duration="909000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="156917000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49731183" visible="true" weight="0.2624811" />
+      <window_info id="Structure" order="1" sideWeight="0.50268817" side_tool="true" visible="true" weight="0.2624811" />
+      <window_info id="Favorites" order="2" sideWeight="0.5033784" side_tool="true" weight="0.2624811" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.39116204" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.46481177" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4977307" visible="true" weight="0.39116204" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0006_auto_20190526_1235.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190526_1230.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0008_pyetesorchoices.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0009_auto_20190526_1258.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0010_auto_20190526_1939.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0012_auto_20190526_2006.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0013_auto_20190526_2010.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0014_auto_20190526_2011.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0011_auto_20190526_1942.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0007_auto_20190526_1244.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0015_remove_pyetesor_aktiv.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0016_auto_20190526_2015.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0017_remove_pyetesor_qellimi.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Public/Documents/ProjectIS/Lib/site-packages/django/db/backends/sqlite3/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="317" selection-start-line="317" selection-end-line="317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190526_2058.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0006_auto_20190526_2059.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0007_auto_20190526_2100.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0008_auto_20190526_2103.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0004_auto_20190526_2058.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0003_auto_20190526_2025.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190526_2105.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190526_2302.py" />
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190526_2309.py" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/static/css/pyetesori.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0004_pyetesor_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0003_auto_20190526_2106.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0002_pyetesor.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#49#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190529_1445.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectIS/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="124" selection-start-line="124" selection-end-line="124" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/footerimg.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/images/testimonaialpic.JPG" />
+    <entry file="file://$PROJECT_DIR$/static/css/healthapp_register.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="101" selection-start-line="32" selection-start-column="101" selection-end-line="32" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/healthapp_login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/aktiviteti_fizik.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19074">
+          <caret line="1122" column="27" selection-start-line="1122" selection-start-column="27" selection-end-line="1122" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/profili.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/planiushqimor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="275" column="38" selection-start-line="275" selection-start-column="38" selection-end-line="275" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/pyetesori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/aktiviteti_fizik.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1870">
+          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectIS/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

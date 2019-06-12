@@ -32,26 +32,31 @@
                         <i></i>
                     </label>
                     <div class="logo">
-                        <a href="#">HEALTH APP</a>
+                        <a href="#">Health App</a>
                     </div>
                     <div class="nav-wrapper">
-                       <ul>
+                        <ul>
                             <li><a href="/index/">Faqja Kryesore</a></li>
-                            <li><a href="/register/">Regjistrohu</a></li>
-                            <li><a href="/login/">Hyr</a></li>
+                            {% if user.is_authenticated %}
                             <li class="dropdown">
                                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">
                                     Shërbimet<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
-                                        <li><a href="#" style="margin-left: -19%">Aktivitetet Fizike</a></li>
+                                        <li><a href="/aktiviteti_fizik/" style="margin-left: -19%">Aktivitetet Fizike</a></li>
                                         <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
                                     </ul>
                             </li>
                             <li><a href="/profili/">Profili</a></li>
                             <li><a href="/pyetesori/">Pyetesori</a></li>
+                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                            {% else %}
+                            <li><a href="/register/">Regjistrohu</a></li>
+                            <li><a href="/login/">Hyr</a></li>
+                            {% endif %}
                         </ul>
-                  </div>
+                        <!--data-toggle="modal" data-target="#LoginModal"-->
+                    </div>
                 </nav>
             </div>
             <!--/Navbar-->
@@ -61,8 +66,10 @@
                     <img src= "{% static "images/profilepic.png" %}" id="profilepic">
                     <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" id="emermbiemer">
-                        <h3>Emri Mbiemri</h3>
+                        {% for info in infoprofili %}
+                        <h3>{{ info.user.username }}</h3>
                         <h4>Mireserdhe</h4>
+                        {% endfor %}
                         <a href="#profili"><img id="arrow_icon"src= "{% static "images/arrow1.png" %}"></a>
                     </div>
                     <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
@@ -72,16 +79,18 @@
             <!--Profili-->
             <div class="row" id="profili" >
                 <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+                     {% for info in infoprofili %}
                         <div id="tedhena">
                             <h2>Te dhena</h2>
-                            <h3>Qellimi:<span> Shtim ne peshe</span></h3>
-                            <h3>Pesha:<span> 50 kg</span></h3>
-                            <h3>Gjatesia:<span> 160 cm</span></h3>
-                            <h3>BMI:<span> 19.5</span></h3>
-                            <h3>Pesha Ideale:<span> 54 kg</span></h3>
-                            <h3>Kalorite e duhura ditore:<span> 2000 cal</span></h3>
-                            <h3>Perqindja e mases dhjamore:<span> 28.8%</span></h3>
+                            <h3>Qellimi:<span>{{ info.qellimi }}</span></h3>
+                            <h3>Pesha:<span> {{ info.pesha }} kg</span></h3>
+                            <h3>Gjatesia:<span> {{ info.gjatesia }} cm</span></h3>
+                            <h3>BMI:<span> {{ BMI }}</span></h3>
+                            <h3>Pesha Ideale:<span> {{ IBW }} kg</span></h3>
+                            <h3>Kalorite e duhura ditore:<span> {{ kalori_ditore }} cal</span></h3>
+                            <h3>Perqindja e mases dhjamore:<span> {{ body_fat }}%</span></h3>
                         </div>
+                    {% endfor %}
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
                     <div id="arritjet">
