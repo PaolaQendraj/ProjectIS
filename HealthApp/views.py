@@ -13,23 +13,59 @@ def index(request):
     if request.method == 'GET':
         return render(request, 'html/index.html')
 
+def register_pass(request):
+    if request.method == 'GET':
+        return render(request, 'html/healthapp_register_pass.html')
+
+def register_exist(request):
+    if request.method == 'GET':
+        return render(request, 'html/healthapp_register_exist.html')
+
+def login_none(request):
+    if request.method == 'GET':
+        return render(request, 'html/healthapp_login_none.html')
+
 def register(request):
     if request.method == 'POST':
 
         username = request.POST['username']
         password = request.POST['password']
         email = request.POST['email']
+        cpassword = request.POST['cpassword']
 
         if not User.objects.filter(email=email).exists():
-            user = User.objects.create_user(email, username, password)
-
-            user.username = username
-            user.save()
-            return render(request, 'html/healthapp_login.html')
+            if password == cpassword:
+                user = User.objects.create_user(email, username, password)
+                user.username = username
+                user.save()
+                return render(request, 'html/healthapp_register_success.html')
+            else:
+                return render(request, 'html/healthapp_register_pass.html')
         else:
-            return render(request, 'html/healthapp_register.html')
+            print("Useri egsiston")
     else:
         return render(request, 'html/healthapp_register.html')
+
+def register_success(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = authenticate(username=username, password=password)
+
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return HttpResponseRedirect('/login_success/')
+            else:
+                return HttpResponse('Your account is disabled')
+
+        else:
+            print('Invalid login details :{0},{1}'.format(username, password))
+            return render(request,'html/healthapp_login_none.html')
+
+    else:
+        return render(request, 'html/healthapp_register_success.html')
 
 def login_user(request):
     if request.method == 'POST':
@@ -41,18 +77,20 @@ def login_user(request):
         if user is not None:
             if user.is_active:
                 login(request, user)
-                return HttpResponseRedirect('/index/')
+                return HttpResponseRedirect('/login_success/')
             else:
                 return HttpResponse('Your account is disabled')
 
         else:
             print('Invalid login details :{0},{1}'.format(username, password))
-            return HttpResponseRedirect('/login/')
+            return render(request,'html/healthapp_login_none.html')
 
     else:
         return render(request, 'html/healthapp_login.html')
 
-
+def login_success(request):
+    if request.method == 'GET':
+        return render(request,'html/healthapp_login_success.html')
 
 def pyetesori(request):
     if request.method == 'GET':
@@ -133,7 +171,7 @@ def planifikuesi_ushqimor(request):
                 kalori_ditore = round(pr.pesha * 0.9 * 24 * koeficienti * aktivitet, 2)
             else:
                 kalori_ditore = round(pr.pesha * 1 * 24 * koeficienti * aktivitet, 2)
-        return render(request, 'html/planiushqimor.html', {'mengjesi': mengjes, 'dreka':dreke, 'darka':darke, 'snacks':snack,'infoprofili': informacion,'BMI': BMI, 'IBW':IBW, 'mosha': mosha, 'body_fat':body_fat, 'uji':uji, 'kalori_ditore': kalori_ditore})
+        return render(request, 'html/planiushqimor.html', {'mengjesi': mengjes, 'dreka':dreke, 'darka':darke, 'snacks':snack,'infoprofili': informacion,'BMI': BMI, 'IBW':IBW, 'body_fat':body_fat, 'uji':uji, 'kalori_ditore': kalori_ditore})
 
 
 def profili(request):
@@ -194,7 +232,7 @@ def profili(request):
             else:
                 kalori_ditore = round(pr.pesha * 1 * 24 * koeficienti * aktivitet, 2)
 
-        return render(request, 'html/profili.html', {'infoprofili': informacion,'BMI': BMI, 'IBW':IBW, 'mosha': mosha, 'body_fat':body_fat, 'uji':uji, 'kalori_ditore': kalori_ditore})
+        return render(request, 'html/profili.html', {'infoprofili': informacion,'BMI': BMI, 'IBW':IBW, 'body_fat':body_fat, 'uji':uji, 'kalori_ditore': kalori_ditore})
 
 
 def aktiviteti_fizik(request):
@@ -205,6 +243,14 @@ def aktiviteti_fizik(request):
         palester = Sport_Palester.objects.all()
         informacion = Pyetesor.objects.filter(user=request.user)
         for info in informacion:
-            pesha = info.pesha
-        return render(request, 'html/aktiviteti_fizik.html',{'sportnatyre': natyre, 'sportujor': ujor, 'sportgrupi': grup, 'sportpalester': palester,'informacion': informacion, 'pesha': pesha})
+            peshe = info.pesha
+        return render(request, 'html/aktiviteti_fizik.html',{'sportnatyre': natyre, 'sportujor': ujor, 'sportgrupi': grup, 'sportpalester': palester,'informacion': informacion})
 
+
+def monitorues_uji(request):
+    if request.method == 'GET':
+        informacion = Pyetesor.objects.filter(user=request.user)
+        uji = 0.0
+        for pr in informacion:
+            uji = round(pr.pesha * 0.033, 2)
+        return render(request,'html/monitorues_uji.html',{'infoprofili': informacion,'uji':uji})

@@ -40,7 +40,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
                                         <li><a href="/aktiviteti_fizik/" style="margin-left: -19%">Aktivitetet Fizike</a></li>
-                                        <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                        <li><a href="/monitorues_uji/" style="margin-left: -20%">Monitorimi i Ujit</a></li>
                                     </ul>
                             </li>
                             <li><a href="/profili/">Profili</a></li>
@@ -150,15 +150,20 @@
                 </div>
                 <div class="col-sm-3 col-md-3"></div>
             </div>
-            <div class="row">
+            <div class="row" style="margin-top: 3%">
                 <div class="col-sm-4 col-md-4"></div>
                 <div class="col-sm-4 col-md-4 text-center ">
                     <p class="animated bounceIn" style="animation-delay: 0.5s">
-                        <button type="submit" id="buton" class=" btn btn-info">NEXT</button>
+                        <button type="submit" id="buton" class=" btn btn-info"  style="color: white;font-size: 20px;padding-right: 30px;padding-left: 30px;padding-top: 10px;padding-bottom: 10px;background-color:#5CE1E6;text-decoration: none;border-radius: 10px;border: none" onclick="sukses()">NEXT</button>
                     </p>
                 </div>
                 <div class="col-sm-4 col-md-4"></div>
             </div>
+                <script>
+                    function sukses() {
+                        alert('Pyetesori u plotesua me sukses!')
+                    }
+                </script>
             </form>
         </div>
         <!--/Pyetesori-->

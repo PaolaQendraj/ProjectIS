@@ -44,7 +44,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
                                         <li><a href="/aktiviteti_fizik/" style="margin-left: -19%">Aktivitetet Fizike</a></li>
-                                        <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                        <li><a href="/monitorues_uji/" style="margin-left: -20%">Monitorimi i Ujit</a></li>
                                     </ul>
                             </li>
                             <li><a href="/profili/">Profili</a></li>
@@ -66,10 +66,8 @@
                     <img src= "{% static "images/profilepic.png" %}" id="profilepic">
                     <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2" id="emermbiemer">
-                        {% for info in infoprofili %}
-                        <h3>{{ info.user.username }}</h3>
+                        <h3>{{ user.username }}</h3>
                         <h4>Mireserdhe</h4>
-                        {% endfor %}
                         <a href="#profili"><img id="arrow_icon"src= "{% static "images/arrow1.png" %}"></a>
                     </div>
                     <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>

@@ -2,143 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bfdf6e0-0bad-419d-a8bc-ec7cae8c694c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Ananas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Arra.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Kivi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Lajthi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Leng_portokalli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Limon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Mandarine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Mango.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Molle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Patate_e_zier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Pjeper.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Pjeshke.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Portokall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Rrush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Shalqi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Shege.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Smoothie_banane_luleshtrydhe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Smoothie_banane_luleshtrydhe_1LviLjZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Smoothie_pjeshke_mango.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_1_a2SZGny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_1_z2A71Z4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_JMTqlHp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/Untitled_design_pAD3zxf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/avokado_iBNcqwQ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/bajame.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/bajame_stIjttZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/banane_BteylXH.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/basket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/blackberry_p8kqbFm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/blueberry_LovnaAY.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_1BNApoR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_1dkU4Rt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_4B4gg6i.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_6XtsWld.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_7a80Lx0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_DOEdxYu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_ES15peB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_IHglnvB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_N5Ojxe7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_NubRFr3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_QeJacfC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_R1LX5cR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_RCr60Du.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_RHhJOfa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_RORzLC9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_Vjl7A2P.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_Z5kqtY0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_mlINTpz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_nXeB3TA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_op0HSn2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_voEXxeq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_xpAdSO6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/boks_zKqiAHJ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/briosh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/brokoli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/brokoli_ZUbWuun.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/brokoli_xQ8hxhh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_AxaW1CN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_CSbgc1c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_Ygx7SzB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ciklist_tmLG4Yk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/crossfit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/domate_DbOuZxe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjemoderuar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjengadal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjerutin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjerutin_RhCY7tD.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjeshpejt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ecjeshpejt_poJUaEl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/filetopule.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/filetopule_2E4YWKa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/futboll.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/futboll_Pp9OQRa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/golf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/handball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/karrota.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kastravec.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kastravec_0BhC2Ze.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kercimenergjik.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/kercimlehte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/laker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/lulelaker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/lyleshtrydhe_t1OSITW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/maraton.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/moderuar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ngadal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/ngjitje.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/not.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/not_u6rG3us.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/patellxhan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/peshk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/peshk_JnGuFIv.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/raspberry_OmMOioZ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/shumshpejt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/spinaq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/spinaq_DY12YYV.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/stika.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/stika_ZF4mgJe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/voley.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/vrapecje.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/vrapnormal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/vrapshpejt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/media/media/watersport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190529_1445.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0006_auto_20190529_1449.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0007_auto_20190529_1451.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0008_remove_mengjesi_vakti.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0009_darka_dreka_snacks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0010_aktiviteti.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0011_auto_20190606_1244.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HealthApp/migrations/0012_add_food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/css/aktiviteti_fizik.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/aktivitetibg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/crossfit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/gymsport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/headingsport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/naturesport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/palester.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sportgrupi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sportnatyre.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/teamsport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/watersport.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/watersport.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/yogalogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/html/aktiviteti_fizik.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HealthApp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/HealthApp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HealthApp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/HealthApp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/question.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/testtimonialbg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/uji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/waterdrink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/healthapp_login_none.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/healthapp_login_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/healthapp_register_exist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/healthapp_register_pass.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/healthapp_register_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/html/monitorues_uji.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HealthApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/HealthApp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectIS/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectIS/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/healthapp_login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/healthapp_login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/healthapp_register.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/healthapp_register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/aktiviteti_fizik.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/aktiviteti_fizik.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/html/healthapp_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/healthapp_login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/html/healthapp_register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/healthapp_register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/html/planiushqimor.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/planiushqimor.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/html/profili.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/html/profili.html" afterDir="false" />
@@ -177,24 +60,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HealthApp/models.py">
+        <entry file="file://$PROJECT_DIR$/ProjectIS/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
+            <state relative-caret-position="287">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="23" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#633#665#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HealthApp/admin.py">
+        <entry file="file://$PROJECT_DIR$/static/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            <state relative-caret-position="313">
+              <caret line="871" lean-forward="true" selection-start-line="871" selection-end-line="871" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/html/pyetesori.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
               <folding>
-                <element signature="e#0#32#0" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,38 +95,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HealthApp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+            <state relative-caret-position="256">
+              <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/html/healthapp_login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="58" />
+            <state relative-caret-position="343">
+              <caret line="259" column="165" selection-start-line="259" selection-start-column="165" selection-end-line="259" selection-end-column="165" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectIS/urls.py">
+        <entry file="file://$PROJECT_DIR$/templates/html/planiushqimor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-              <folding>
-                <element signature="e#633#665#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="244">
+              <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/html/profili.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/html/monitorues_uji.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -258,9 +159,10 @@
       <find>tesr</find>
       <find>footer</find>
       <find>background-image</find>
-      <find>tes</find>
       <find>url</find>
       <find>header</find>
+      <find>form</find>
+      <find>tes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -271,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/css/healthapp_register.css" />
         <option value="$PROJECT_DIR$/static/css/planiushqimor.css" />
         <option value="$PROJECT_DIR$/static/css/pyetesori.css" />
         <option value="$PROJECT_DIR$/static/css/profili.css" />
@@ -279,20 +180,27 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ProjectIS/settings.py" />
         <option value="$PROJECT_DIR$/HealthApp/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/static/css/healthapp_login.css" />
-        <option value="$PROJECT_DIR$/templates/html/healthapp_register.html" />
         <option value="$PROJECT_DIR$/HealthApp/models.py" />
-        <option value="$PROJECT_DIR$/static/css/index.css" />
         <option value="$PROJECT_DIR$/HealthApp/admin.py" />
         <option value="$PROJECT_DIR$/static/css/aktiviteti_fizik.css" />
-        <option value="$PROJECT_DIR$/ProjectIS/urls.py" />
-        <option value="$PROJECT_DIR$/templates/html/index.html" />
-        <option value="$PROJECT_DIR$/templates/html/pyetesori.html" />
+        <option value="$PROJECT_DIR$/static/css/healthapp_login.css" />
+        <option value="$PROJECT_DIR$/static/css/healthapp_register.css" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
         <option value="$PROJECT_DIR$/templates/html/aktiviteti_fizik.html" />
-        <option value="$PROJECT_DIR$/templates/html/profili.html" />
-        <option value="$PROJECT_DIR$/HealthApp/views.py" />
-        <option value="$PROJECT_DIR$/templates/html/planiushqimor.html" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_register_exist.html" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_register_pass.html" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_register_success.html" />
+        <option value="$PROJECT_DIR$/ProjectIS/urls.py" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_login_success.html" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_login_none.html" />
+        <option value="$PROJECT_DIR$/templates/html/healthapp_register.html" />
         <option value="$PROJECT_DIR$/templates/html/healthapp_login.html" />
+        <option value="$PROJECT_DIR$/HealthApp/views.py" />
+        <option value="$PROJECT_DIR$/templates/html/monitorues_uji.html" />
+        <option value="$PROJECT_DIR$/templates/html/planiushqimor.html" />
+        <option value="$PROJECT_DIR$/templates/html/profili.html" />
+        <option value="$PROJECT_DIR$/templates/html/pyetesori.html" />
+        <option value="$PROJECT_DIR$/templates/html/index.html" />
       </list>
     </option>
   </component>
@@ -308,7 +216,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -346,6 +253,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,14 +264,14 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\images" />
       <recent name="C:\Users\user\PycharmProjects\ProjectIS\templates\html" />
       <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\css" />
       <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\script" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\ProjectIS\static\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -547,17 +455,18 @@
       <workItem from="1560263925833" duration="5366000" />
       <workItem from="1560284422663" duration="3550000" />
       <workItem from="1560327454967" duration="909000" />
+      <workItem from="1560328521531" duration="35401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156917000" />
+    <option name="totallyTimeSpent" value="192318000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49731183" visible="true" weight="0.2624811" />
-      <window_info id="Structure" order="1" sideWeight="0.50268817" side_tool="true" visible="true" weight="0.2624811" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.76570046" visible="true" weight="0.15128593" />
+      <window_info id="Structure" order="1" sideWeight="0.23429951" side_tool="true" visible="true" weight="0.15128593" />
       <window_info id="Favorites" order="2" sideWeight="0.5033784" side_tool="true" weight="0.2624811" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -570,7 +479,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.39116204" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.46481177" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4977307" visible="true" weight="0.39116204" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4977307" visible="true" weight="0.32242227" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -583,11 +492,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0006_auto_20190526_1235.py" />
-    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0005_auto_20190526_1230.py" />
-    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0008_pyetesorchoices.py" />
-    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0009_auto_20190526_1258.py" />
-    <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0010_auto_20190526_1939.py" />
     <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0012_auto_20190526_2006.py" />
     <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0013_auto_20190526_2010.py" />
     <entry file="file://$PROJECT_DIR$/HealthApp/migrations/0014_auto_20190526_2011.py" />
@@ -659,34 +563,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/images/testimonaialpic.JPG" />
-    <entry file="file://$PROJECT_DIR$/static/css/healthapp_register.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="101" selection-start-line="32" selection-start-column="101" selection-end-line="32" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/healthapp_login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/aktiviteti_fizik.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19074">
@@ -694,37 +570,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html/profili.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html/planiushqimor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="275" column="38" selection-start-line="275" selection-start-column="38" selection-end-line="275" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html/pyetesori.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html/aktiviteti_fizik.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HealthApp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
+        <state>
           <caret line="112" column="63" selection-start-line="112" selection-start-column="63" selection-end-line="112" selection-end-column="63" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
@@ -742,34 +590,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HealthApp/views.py">
+    <entry file="file://$PROJECT_DIR$/static/css/healthapp_login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="116" column="37" selection-start-line="116" selection-start-column="37" selection-end-line="116" selection-end-column="37" />
+        <state relative-caret-position="223">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html/index.html">
+    <entry file="file://$PROJECT_DIR$/static/css/healthapp_register.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="58" />
+        <state relative-caret-position="323">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/aktiviteti_fizik.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5880">
+          <caret line="365" column="46" selection-start-line="365" selection-start-column="46" selection-end-line="365" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#1;n#div#0;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="871" lean-forward="true" selection-start-line="871" selection-end-line="871" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_login_none.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="126" column="36" selection-start-line="126" selection-start-column="36" selection-end-line="126" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_register_exist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="142" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_register_pass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="143" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_login_success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="172" column="49" selection-start-line="172" selection-start-column="49" selection-end-line="172" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="84" column="145" selection-start-line="84" selection-start-column="145" selection-end-line="84" selection-end-column="145" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ProjectIS/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        <state relative-caret-position="287">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_login.html">
+    <entry file="file://$PROJECT_DIR$/templates/html/healthapp_register_success.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state relative-caret-position="-2255">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="135" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HealthApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="58" column="59" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/monitorues_uji.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="45" column="68" selection-start-line="45" selection-start-column="68" selection-end-line="45" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/profili.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/pyetesori.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#7;n#form#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/planiushqimor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="259" column="165" selection-start-line="259" selection-start-column="165" selection-end-line="259" selection-end-column="165" />
         </state>
       </provider>
     </entry>

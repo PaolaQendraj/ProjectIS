@@ -1,0 +1,91 @@
+{% load static%}
+<html style="overflow-x: hidden;">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link href="{% static 'css/aktiviteti_fizik.css' %}" rel="stylesheet">
+        <link  href="{% static 'css/animate.css' %}" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.css >
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.min.js"></script>
+        <link href="{% static 'css/aos.css' %}" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <!--Navbar-->
+            <div class="container">
+                <nav>
+                    <input type="checkbox" id="nav" class="hidden">
+                    <label for="nav" class="nav-btn">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </label>
+                    <div class="logo">
+                        <a href="#">Health App</a>
+                    </div>
+                    <div class="nav-wrapper">
+                        <ul>
+                            <li><a href="/index/">Faqja Kryesore</a></li>
+                            {% if user.is_authenticated %}
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Shërbimet<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
+                                        <li><a href="/aktiviteti_fizik/" style="margin-left: -19%">Aktivitetet Fizike</a></li>
+                                        <li><a href="/monitorues_uji/" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                    </ul>
+                            </li>
+                            <li><a href="/profili/">Profili</a></li>
+                            <li><a href="/pyetesori/">Pyetesori</a></li>
+                            <li><a href="{% url 'logout' %}">Logout</a></li>
+                            {% else %}
+                            <li><a href="/register/">Regjistrohu</a></li>
+                            <li><a href="/login/">Hyr</a></li>
+                            {% endif %}
+                        </ul>
+                        <!--data-toggle="modal" data-target="#LoginModal"-->
+                    </div>
+                </nav>
+            </div>
+            <!--/Navbar-->
+            <!--Planifikuesi Ushqimor Header-->
+            <div class="row" id="contentUshqimi" style="background-image: url('/static/images/waterdrink.png')">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6" id="content_txt">
+                    <h1 id="contentText1" data-aos="fade-right" data-aos-duration="500" data-aos-delay="200" style="color: white">Monitoruesi<br> i Ujit</h1>
+                    <h2 id="contentText2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="400" style="color: #5ce1e6">
+                        Ju duhet të konsumoni cdo ditë<br>
+                        {% for info in infoprofili %}
+                            <span style="color: white">{{ uji }}</span> litra ujë</h2>
+                        {% endfor %}
+                    <div class="row" id="imazh">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <img src="{% static "images/uji.png" %}" id="contentimg" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
+                        </div>
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"></div>
+            </div>
+            <!--/Planifikuesi Ushqimor Header-->
+        </header>
+            <script src="{% static "script/aos.js" %}"></script>
+            <script type="text/javascript">
+            AOS.init({
+                offset:200,
+                duration:700,
+            });
+            </script>
+    </body>
+</html>

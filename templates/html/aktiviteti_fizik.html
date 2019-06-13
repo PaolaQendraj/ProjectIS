@@ -80,7 +80,7 @@
                 <div class="row">
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                        <h1 id="vaktetText" data-aos="fade-down" data-aos-duration="500" data-aos-easing="ease-in-sine">Zgjidhni nje prej vakteve</h1>
+                        <h1 id="vaktetText" style="margin-top: 15%;font-size: 33px;font-family:'Century Gothic',sans-serif;">ZGJIDHNI NJË PREJ SPORTEVE</h1>
                     </div>
                     <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3"></div>
                </div>
@@ -194,7 +194,7 @@
                                 </div>
                                 <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
                                     <h3>{{ pr.emri }}</h3>
-                                    <input type="number" id="minuta" placeholder="Vendosni minutat">
+                                    <input type="number" id="minuta" required placeholder="Vendosni minutat">
                                 </div> 
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                     </div>
                     <script type="text/javascript">
                         function llogarit () {
-                            var rezultat = 0.0
+                            var rezultat = 0.0;
                             var minuta = document.getElementById("minuta").value;
                             rezultat = {{ pesha }} * {{ pr.koeficienti }}  * minuta/60;
                             document.getElementById('final').innerHTML = rezultat;
@@ -218,13 +218,7 @@
                     </script>
                     {% if forloop.last %}</div>{% endif %}
                     {% endfor %}
-                    <div class="row">
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                                <button id="btn_perfundo">Përfundo</button>
-                            </div>
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                    </div>
+
                 </div>
                 <!--/Ushqimet-->
             </div>
@@ -271,13 +265,6 @@
 
                     {% if forloop.last %}</div>{% endif %}
                     {% endfor %}
-                    <div class="row">
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                                <button id="btn_perfundo">Përfundo</button>
-                            </div>
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                    </div>
                 </div>
                 <!--/Ushqimet-->
             </div>
@@ -332,13 +319,6 @@
                     </script>
                     {% if forloop.last %}</div>{% endif %}
                     {% endfor %}
-                    <div class="row">
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                                <button id="btn_perfundo">Përfundo</button>
-                            </div>
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                    </div>
                 </div>
                 <!--/Ushqimet-->
             </div>
@@ -390,16 +370,10 @@
                         var rezultat = (pesha * koeficienti) * minuta/60 ;
                         document.getElementById('rezultat').innerHTML = rezultat;
                         }
+
                     </script>
                     {% if forloop.last %}</div>{% endif %}
                     {% endfor %}
-                    <div class="row">
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                            <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
-                                <button id="btn_perfundo">Përfundo</button>
-                            </div>
-                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-"></div>
-                    </div>
                 </div>
                 <!--/Ushqimet-->
             </div>

@@ -16,6 +16,81 @@
         <link rel="stylesheet" https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.css >
         <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.3.1/lity.min.js"></script>
         <link href="{% static 'css/aos.css' %}" rel="stylesheet" type="text/css">
+        <style>
+            #pyetesor_text
+            {
+                padding-top:15px;
+                padding-left: 30px;
+                margin-top: 20%;
+            }
+            #pyetesor_title
+            {
+                font-family: 'Century Gothic',sans-serif;
+                font-size: 22px;
+                letter-spacing: 1px;
+                font-weight: 700;
+                color: #FB9985;
+            }
+            #pyetesor_type
+            {
+                font-family: 'Century Gothic',sans-serif;
+                font-size: 38px;
+                letter-spacing: 1px;
+                font-weight: 600;
+                line-height: 45px;
+            }
+            #pyetesor_discription
+            {
+                font-family: 'Century Gothic',sans-serif;
+                font-size: 15px;
+                letter-spacing: 1px;
+                font-weight: 600;
+                margin-top: 2%;
+                margin-bottom: 2%;
+            }
+            #pyetesor_button
+            {
+                text-align: center;
+                padding-top: 1.2%;
+                background-color:#5CE1E6;
+                width: 160px;
+                height: 45px;
+                border-radius: 0px;
+                border: 0;
+            }
+            #pyetesor_button a
+            {
+                color: white;
+                font-size: 20px;
+                font-family: 'Century Gothic', sans-serif;
+                font-weight: 700;
+            }
+            #pyetesor_button a
+            {
+                text-decoration: none;
+            }
+            #pyetesor_button a:hover
+            {
+                cursor: pointer;
+            }
+
+            #pyetesori
+            {
+                margin-top: 7%;
+            }
+            #question
+            {
+                width: 90%;
+            }
+            #testimonial4 {
+                overflow: hidden;
+                min-height: 375px;
+                position: relative;
+                background: #63009E;
+                background-image: url('/static/images/testtimonialbg2.jpg');
+                background-size: cover;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -41,7 +116,7 @@
                                     <ul class="dropdown-menu">
                                         <li><a href="/planifikuesi_ushqimor/">Planifikues Ushqimor</a></li>
                                         <li><a href="/aktiviteti_fizik/" style="margin-left: -19%">Aktivitetet Fizike</a></li>
-                                        <li><a href="#" style="margin-left: -20%">Monitorimi i Ujit</a></li>
+                                        <li><a href="/monitorues_uji/" style="margin-left: -20%">Monitorimi i Ujit</a></li>
                                     </ul>
                             </li>
                             <li><a href="/profili/">Profili</a></li>
@@ -110,33 +185,48 @@
             </div>
             <!--/Carousel-->
         </header>
+        <div class="container">
+                <div class="row" id="pyetesori">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <img src="{% static "images/question.jpg" %}" id="question">
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <div id="pyetesor_text">
+                      <div id="pyetesor_title">
+                          PLOTËSONI PYETËSORIN
+                      </div>
+                      <div id="pyetesor_type">
+                          Sigurohuni që të vendosni saktë të dhënat tuaja.
+                      </div>
+                      <div id="pyetesor_discription">
+                          Ne ju garantojmë një shërbim të saktë dhe të sigurt
+                      </div>
+                      <div id="pyetesor_button">
+                          <a href="/pyetesori/">PLOTËSO</a>
+                      </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         <!--About us-->
-        <section id="about" class="section-padding about-section" style="margin-top: 10%;margin-bottom: 10%">
+        <section id="about" class="section-padding about-section" style="margin-top: 7%;margin-bottom: 10%">
           <div class="container">
             <div class="row">
               <div class="col-sm-6">
                 <div class="section_title"><br>
-                  <div class="section_subtitle" style="font-family: 'Poppins',sans-serif">Rreth nesh </div>
-                  <h2 class="section_main_title" style="font-family: 'Poppins',sans-serif">NE DHE <strong>MISIONI YNË</strong></h2>
+                  <div class="section_subtitle" style="font-family: 'Century Gothic',sans-serif;font-size: 22px;color:#FB9985;">Rreth nesh </div>
+                  <h2 class="section_main_title" style="font-family: 'Century Gothic',sans-serif;color: #5CE1E6">APLIKACIONI PËR<strong> SHËNDETIN</strong></h2>
                 </div>
-                <div class="about-item" style="font-family: 'Poppins',sans-serif">
+                <div class="about-item" style="font-family: 'Century Gothic',sans-serif;font-size: 15px;font-weight: 600;margin-top: -4%">
                   <p>
-                    Ne jemi zhvilluesit e rinj te aplikacioneve web dhe jo vetem.
-                    Gjithcka nisi si nje projekt ne fakultetin ku ne studiojme.
-                    Vendosem  te gjithe si skuader te krijonim nje app per kujdesin ndaj shendetit tone.
-                    Shpresojme t'ju pelqeje!
-                    Ky aplikacion eshte ndertuar me shume perkushtim dhe pune ne grup per te arritur ne nje
-                    produkt te perdorshem dhe terheqes per perdoruesit.
-                  </p>
-                  <p>
-                    We are the next generation of young Developers. This app will
-                    help you organise dhe take care of your health. Nothing is more important as health,
-                    we all know that.
-                    Enjoy :)
+                      Ky është applikacioni më i ri për të gjithë ju që doni të kujdeseni më tepër për shëndetin tuaj.
+                      Mjafton që ju të vendosni saktë të dhënat tuaja dhe ne do tju ofrojme një shërbim sa më të mirë.
+                      Llogaritjet që ky aplikacion do të bëj do të jenë mëse të sakta dhe të domosdoshme që ju të merrni
+                      nën kontroll shëndetin tuaj.
                   </p>
                   <div class="hgt-20"></div>
-                    <div class="home-button"><br>
-                        <a href="" class="btn-color-background">Lexo me shume...</a>
+                    <div><br>
+                        <a href="#sherbimet" style="color: white;font-size: 20px;padding-right: 30px;padding-left: 30px;padding-top: 10px;padding-bottom: 10px;background-color:#5CE1E6;text-decoration: none">MË TEPËR</a>
                     </div>
                   </div>
                </div>
@@ -150,7 +240,7 @@
         </section>
         
         <!--Services-->
-        <section class="services-section">
+        <section class="services-section" id="sherbimet" style="margin-top: -3%">
             <div class="row no-gutters clearfix">
                 <div class="service-block col-sm-4">
                     <div class="inner-box">
@@ -163,11 +253,11 @@
                                     
                                 </a>
                                 <br>
-                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;font-size: 37px; margin-top: -20px;" class="animated slideInLeft"><a href=""></a>Planifikues Ushqimor</h3>
+                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;font-size: 37px; margin-top: -20px;" class="animated slideInLeft">Planifikues Ushqimor</h3>
                                 <div class="text" style="font-family: Poppins, sans-serif;font-weight: 400; font-size: 15px;line-height: 28px"> 
-                                    <h5 class="animated fadeIn" style="animation-delay: 0.2s; margin-top:15px;">Lorem Ipsum has been the industry's standard.</h5> 
+                                    <h5 class="animated fadeIn" style="animation-delay: 0.2s; margin-top:15px;">Do tju ndihmojë për dietën tuaj.</h5>
                                 </div>
-                                <div class="link-box"><a href="planiushqimor.html"><button class="btn btn-info animated heartBeat">Fillo Tani</button></a></div>
+                                <a href="/planifikuesi_ushqimor/"><div class="link-box"><button class="btn btn-info animated heartBeat">Fillo Tani</button></div></a>
                             </div>
                         </div>
                     </div>
@@ -180,11 +270,11 @@
                                 <a href="">
                                     
                                 </a>
-                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;font-size: 37px; margin-top: -20px;" class="animated zoomIn"><a href=""></a>Monitorues Uji</h3>
+                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;font-size: 37px; margin-top: -20px;" class="animated zoomIn">Monitorues Uji</h3>
                                 <div class="text" style="font-family: Poppins, sans-serif;font-weight: 400; font-size: 15px;line-height: 28px"> 
-                                   <h5 class="animated fadeIn" style="animation-delay: 0.2s;margin-top:15px;">Lorem Ipsum has been the industry's standard.</h5>
+                                   <h5 class="animated fadeIn" style="animation-delay: 0.2s;margin-top:15px;">Do tju tregojë se sa ujë duhet të pini cdo ditë.</h5>
                                 </div>
-                                <div class="link-box"><button class="btn btn-info animated heartBeat">Fillo Tani</button></div>
+                                <a href="/monitorues_uji/"><div class="link-box"><button class="btn btn-info animated heartBeat">Fillo Tani</button></div></a>
                             </div>
                         </div>
                         
@@ -204,11 +294,11 @@
                                     
                                 </a>
                                 <br>
-                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;;font-size: 37px; margin-top: -20px;" class="animated slideInRight"><a href=""></a>Planifikues <br>per Aktivitetin Fizik</h3>
+                                <h3 style="font-family: 'Poppins',sans-serif;font-weight: 600;text-transform: uppercase;line-height: 40px;color: #FB9985;;font-size: 37px; margin-top: -20px;" class="animated slideInRight">Planifikues <br>per Aktivitetin Fizik</h3>
                                 <div class="text" style="font-family: Poppins, sans-serif;font-weight: 400; font-size: 15px;line-height: 28px"> 
-                                    <h5 class="animated fadeIn" style="animation-delay: 0.2s;margin-top:15px;">Lorem Ipsum has been the industry's standard.</h5>
+                                    <h5 class="animated fadeIn" style="animation-delay: 0.2s;margin-top:15px;">Do tju tregojë llojet e aktiviteteve që mund të ushtroni.</h5>
                                 </div>
-                                <div class="link-box"><button class="btn btn-info animated heartBeat">Fillo Tani</button></div>
+                                <a href="/aktiviteti_fizik/"><div class="link-box"><button class="btn btn-info animated heartBeat">Fillo Tani</button></div></a>
                             </div>
                         </div>
                     </div>
@@ -238,14 +328,14 @@
                             <div class="item">
                                 <div class="testimonial4_slide">
                                     <img src= "{% static "images/f2.png" %}" class="img-circle img-responsive" />
-                                    <p>Aplikacioni eshte interesant. Nje ide mjaft e mire. </p>
+                                    <p>Aplikacioni është interesant. Një ide mjaft e mirë. </p>
                                     <h4>Marin Ron</h4>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="testimonial4_slide">
                                     <img src= "{% static "images/f3.png" %}" class="img-circle img-responsive" />
-                                    <p>Dizanjni shume i bukur. Pune e mire. I lehte per tu perdorur. Mjaft i sakte.</p>
+                                    <p>Dizanjni shume i bukur. Punë e mirë. I lehtë për tu përdorur. Mjaft i saktë.</p>
                                     <h4>Ana Gjimi</h4>
                                 </div>
                             </div>
@@ -270,12 +360,11 @@
                         <div class="col-md-3 col-sm-6 col-xs-12 segment-two md-mb-30 sm-mb-30">
                             <h3>Shko te:</h3>
                             <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="planiushqimor.html">Sherbimet</a></li>
-                                <li><a href="healthapp_login.html">Login</a></li>
-                                <li><a href="healthapp_register.html">Register</a></li>
-                                <li><a href="profili.html">Profili</a></li>
-                                <li><a href="#">Blog</a></li>
+                                <li><a href='/index/'>Home</a></li>
+                                <li><a href="/login/">Login</a></li>
+                                <li><a href="/register/">Register</a></li>
+                                <li><a href="/profili/">Profili</a></li>
+                                <li><a href="/pyetesori/">Pyetësori</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-sm-6 col-xs-12 segment-three sm-mb-30">

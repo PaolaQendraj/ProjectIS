@@ -1,0 +1,183 @@
+{% load static%}
+<html style="overflow-x: hidden">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald:400,500" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="{% static 'css/healthapp_login.css' %}" rel="stylesheet" type="text/css" >
+        <style>
+            #kthehu a{
+                margin-left: -18%;
+                background-color:#fb9985;
+                padding-left: 33px;
+                padding-right: 33px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: white;
+                border-radius: 10px;
+                font-size: 16px;
+                font-family:'Oswald',sans-serif;
+                text-decoration: none;
+                cursor: pointer;
+            }
+            #pass h3
+            {
+                color: #fb9985;
+                font-family:'Oswald',sans-serif;
+                text-align:center;
+                margin-bottom: 10%;
+                background-color:white;
+                padding: 10px;
+                width: 500px;
+                border-radius: 20px;
+            }
+            @media only screen and (max-width: 1024px)
+            {
+                #rregjistrohu
+                {
+                    margin-left: -2%;
+                }
+                #pass h3{
+                    margin-left: -20%;
+                    font-size: 38px;
+                }
+                #kthehu
+                {
+                    margin-left: -8%;
+                    margin-top: 20px;
+                }
+                #kthehu a
+                {
+                    font-size: 42px;
+                }
+            }
+            @media only screen and (max-width: 768px)
+            {
+                #rregjistrohu
+                {
+                    margin-left: -3%;
+                }
+                #pass h3{
+                    margin-left: -45%;
+                    font-size: 38px;
+                }
+                #kthehu
+                {
+                    margin-left: -15%;
+                    margin-top: 40px;
+                }
+                #kthehu a
+                {
+                    font-size: 42px;
+                }
+            }
+            @media only screen and (max-width: 414px)
+            {
+                #rregjistrohu
+                {
+                    margin-top: 5%;
+                    margin-left: -10%;
+                }
+                #pass h3{
+                    margin-left: -60%;
+                    font-size: 28px;
+                    width: 300px;
+                }
+                #kthehu
+                {
+                    margin-left: -29%;
+                    margin-top: 40px;
+                }
+                #kthehu a
+                {
+                    font-size: 30px;
+                }
+            }
+            @media only screen and (max-width: 375px)
+            {
+                #rregjistrohu
+                {
+                    margin-top: 5%;
+                    margin-left: -13%;
+                }
+                #pass h3{
+                    margin-left: -84%;
+                    font-size: 25px;
+                    width: 300px;
+                }
+                #kthehu
+                {
+                    margin-left: -32%;
+                    margin-top: 40px;
+                }
+                #kthehu a
+                {
+                    font-size: 27px;
+                }
+            }
+            @media only screen and (max-width: 360px)
+            {
+                #rregjistrohu
+                {
+                    margin-top: 5%;
+                    margin-left: -15%;
+                }
+                #pass h3{
+                    margin-left: -70%;
+                    font-size: 22px;
+                    width: 260px;
+                }
+                #kthehu
+                {
+                    margin-left: -35%;
+                    margin-top: 40px;
+                }
+                #kthehu a
+                {
+                    font-size: 26px;
+                }
+            }
+        </style>
+    </head>
+    <body style="background-image: url('/static/images/base.png');">
+        <div id="main">
+            <div class="row">
+                <div class="col-xs-5 col-sm-5 col-md-5 col-xl-5"></div>
+                <div class="col-xs-2 col-sm-2 col-md-2 col-xl-2" id="rregjistrohu">
+                    <ul>
+                        <a href="#">Hyr</a>
+                    </ul>
+                </div>
+                <div class="col-xs-5 col-sm-5 col-md-5 col-xl-5"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-xl-3"></div>
+                <div class="col-xs-6 col-sm-6 col-md-6 col-xl-6" id="form">
+                    <form>
+                        <div class="row">
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                                <div id="pass" style="margin-left: -5%">
+                                <h3>Kujdes! Te dhenat jane gabim.</h3>
+                            </div>
+                            </div>
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+                            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" id="kthehu">
+                                <a href="/login/">KTHEHU</a>
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5"></div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-xl-3"></div>
+            </div>
+        </div>
+    </body>
+</html>
